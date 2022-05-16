@@ -40,7 +40,7 @@ export default {
 
 <style lang="scss" scoped>
 .homepage__top {
- background: #DCDCDC;
+ 
 }
 .copy__right{
     position:absolute;
