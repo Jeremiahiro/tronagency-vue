@@ -83,6 +83,11 @@
                             Vast and complex businesses like these need digital experiences that are just as people-friendly as they are robust and scalable. <br>
                             Through challenging core assumptions, we shape the products and services that improve the lives of thousands every single day.
                         </p>
+                    <b-col class="p-5">
+                        <router-link  to="/" class="">
+                          <button class="ml-5 pl-5 pr-5 our__approach__button text-white">Our Approach</button>
+                        </router-link>
+                    </b-col>
                     </b-col>
                     <b-col class="p-5">
                         <h1 class="overlay__container_legend display-3">
@@ -178,7 +183,7 @@ export default {
 .our__approach__button{
     background: #11271F;
     justify-content: center;
-    width: 150px;
+    
 }
     
 
