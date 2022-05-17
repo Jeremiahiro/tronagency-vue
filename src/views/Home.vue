@@ -4,7 +4,7 @@
             <div>
                 <Navbar />
             </div>
-            <div class="h-100 flex-1 p-5">
+            <div class="h-100 flex-1 py-5">
                 <Homepage />
             </div>
         </div>
