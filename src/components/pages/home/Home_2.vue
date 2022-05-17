@@ -3,7 +3,7 @@
         <!-- start changes here -->
         <b-row class="first__text__container px-5 py-5">
             <b-col  cols-sm="12" cols="6" class=" text-justify">
-                <h2 class="headings p-3">The work we do, and the people we work</h2>
+                <h2 class="headings p-3 ">The work we do, and the people we work</h2>
 
             </b-col>
              <b-col  cols-sm="12" class="p-3 mx-5">
@@ -27,12 +27,12 @@
                                
                            </div>
                        </b-col>
-                       <b-col  cols="" class="secoond__dashboard px-0 ml-0">
-                           <img class="w-100 mt-2" src="@/assets/second__dashboard__image.png">
+                       <b-col  cols="6" class="secoond__dashboard  px-5 py-3">
+                           <img  class="mt-5 pr-5 mr-5 second__dashboard__image" src="@/assets/second__dashboard__image.png">
                        </b-col>
                    </b-row> 
 
-                   <b-row class="px-4 py-4">
+                   <b-row class="px-2 py-2">
                        <b-col class="">
                            <router-link to="/">
                            <img  class="p-5 ml-5"  src="@/assets/left-button.png">
@@ -50,7 +50,7 @@
                        <b-col class="6">
                            <div class="position-relative mb-5">
                                <div class="overlap__image__container">
-                                   <b-row class="px-5 py-5">
+                                   <b-row class="px-3 py-3">
                                        <b-col class="">
                                            <img class="w-100 ml-5" src="@/assets/christianal__img.png">
                                        </b-col>
@@ -75,26 +75,27 @@
                             <div class="">
                                 <b-row class="px-5 py-5">
                                     <b-col class="">
-                                        <img  class="ml-5" src="@/assets/clientforce-logo.svg">
+                                        <img  class="ml-3" src="@/assets/clientforce-logo.svg">
                                         
                                     </b-col>
                                     <b-col class="px-3">
                                         <p class="pr-5 p-2" style="color: #767376">UI/UX Branding, development</p>
                                     </b-col>
                                     
+                                
+                                  
+                                </b-row>
+                                
                                     
-                                </b-row>
-                                <b-row>
-                                    <b-col class="px-5 py-5">
-                                        <router-link>
-                                          <img class="pt-5" src="@/assets/left-button.png">  
-                                        </router-link>
-                                    </b-col>
-                                </b-row>
                             </div>
                        </b-col>
                        
                    </b-row>
+                   <b-col class="px-1 py-1">
+                            <router-link>
+                                <img class="" src="@/assets/left-button.png">  
+                            </router-link>
+                        </b-col>
                 </div>
              </b-col>
         </b-row>
@@ -125,13 +126,16 @@ export default {
     }
     .headings{
         color:#fff;
-        font-size:35px
+        font-size:70.51px
         
     }
     .image__frame__container{
         background-color:#4D4D4D45;
         .dashboard__img_container{
             background:#11271F ;
+        }
+        .second__dashboard__image{
+            margin-left:-200px;
         }
         
         }
