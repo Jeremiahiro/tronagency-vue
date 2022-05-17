@@ -34,44 +34,78 @@
             </b-col>
         </b-row>
         <div class="down__overlay">
-        <b-row>
-            <b-col cols-sm="12" cols="4">
-                <span class=""><img style="height:630px" src="@/assets/sylvia-image.svg"></span>
+            <div class="lap">
+                <b-row>
+                    <b-col cols-sm="12" cols="4">
+                        <span class=""><img style="height:630px" src="@/assets/sylvia-image.svg"></span>
+                        
+                    </b-col>
+                    <b-col cols-sm="12" cols="2" class="recent__work">
+                        <router-link to="/work">
+                            <span class=""><img style="height:80px;" src="@/assets/Recent-work.svg"></span>
+                        </router-link>
+                    </b-col>
+                    <b-col cols-sm="12" cols="6" class="d-inline-flex " style="margin-top:130px">
+                        <span class="first-rec p-2">
+                                <h4 class="pt-5 mx-5">Clic</h4>
+                                <p class="mx-5" style="color: #767376;">UI/UX Design Branding</p>
+                        </span>
+                        <span class="second-rec p-2">
+                            <h4 class="pt-5 mx-3 text-white">Rainmaker</h4>
+                            <p class="mx-3" style="color: #767376;"> UI/UX Design, Branding, Development</P>
+                            <router-link to="/">
+                            
+                            <span class=""><p class="case__study pt-5 mx-3" style="color: #767376">Read Case Study
+                                <img src="@/assets/case-study-arrow.svg">
+                            </p></span>
+                            
+
+                            </router-link>
+
+                         </span>
+                        <span class="third-rec p-2">
+                            <h4 class="pt-5 mx-4">ADA Compliance</h4>
+                            <p class="mx-4" style="color: #767376;">UI/UX Design Branding</p>
+
+                            <p></p>
+                        </span>
+                        
+                    </b-col>
+                    
+                </b-row>
                 
-            </b-col>
-            <b-col cols-sm="12" cols="2" class="recent__work">
-                <router-link to="/work">
-                    <span class=""><img style="height:80px;" src="@/assets/Recent-work.svg"></span>
-                </router-link>
-            </b-col>
-            <b-col cols-sm="12" cols="6" class="d-inline-flex " style="margin-top:130px">
-               <span class="first-rec p-2">
-                    <h4 class="pt-5 mx-5">Clic</h4>
-                    <p class="mx-5" style="color: #767376;">UI/UX Design Branding</p>
-               </span>
-               <span class="second-rec p-2">
-                      <h4 class="pt-5 mx-3 text-white">Rainmaker</h4>
-                      <p class="mx-3" style="color: #767376;"> UI/UX Design, Branding, Development</P>
-                      <router-link to="/">
-                      
-                      <span class=""><p class="case__study pt-5 mx-3" style="color: #767376">Read Case Study
-                          <img src="@/assets/case-study-arrow.svg">
-                      </p></span>
-                      
+                <div class="overlay">
+                    <b-row>
+                        <b-col cols="7" class="">
+                            <b-row class="d-flex justify-content-between">
+                                <b-cols cols-sm="12" cols="6">
+                                    <p class="" style="margin:100px;">Our clients are the companies and startups who make the 
+                                        world go round — they treat diseases, move parcels, insure cars, create jobs, 
+                                        send emails and publish courses.
 
-                      </router-link>
+                                        Vast and complex businesses like these need digital experiences that are just as people-friendly as they are robust and scalable.
+                                        Through challenging core assumptions, we shape the products and 
+                                        services that improve the lives of thousands every single day.
+                                    
+                                    </p>
+                                    <span class="m-5">
+                                        <router-link to="/">
+                                        <button class="text-white pb-0 our__approach__button">Our Approach</button>
+                                        </router-link>
+                                    </span>
+                                </b-cols>
+                            </b-row>
+                        </b-col>
+                        <b-col cols-sm="12" cols="">
+                            <h4 class="m-5 pt-5 display-3  ">We bring <br>everything <br>that's 
+                            <span class=""><img style="height:40px" src="@/assets/emoji-happy.svg"></span><br>require
+                            to build a<br> project</h4>
+                        </b-col>
+                    </b-row>
+                </div>
 
-               </span>
-               <span class="third-rec p-2">
-                      <h4 class="pt-5 mx-4">ADA Compliance</h4>
-                      <p class="mx-4" style="color: #767376;">UI/UX Design Branding</p>
 
-                      <p></p>
-               </span>
-                
-            </b-col>
-               
-        </b-row>
+            </div>
         </div>
         
 
@@ -95,6 +129,7 @@ export default {
 <style lang="scss" scoped>
 .homepage__top {
 //  background: #DCDCDC;
+    
 }
 .copy__right{
     position:absolute;
@@ -142,8 +177,13 @@ export default {
 .overlay{
     position: absolute;
     background:#C4C4C480;
-    top:0px;
+    top:400px;
     width:100%
+}
+.our__approach__button{
+    background: #11271F;
+    justify-content: center;
+    width: 150px;
 }
     
 
