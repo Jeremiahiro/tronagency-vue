@@ -6,7 +6,7 @@
 
                     <div class="d-block d-lg-none">
                         <b-navbar-brand href="/" class="d-flex align-items-center justify-content-center">
-                            <img class="brand-logo" style="height: 40px;" src="@/assets/tronagency_logo.svg">
+                            <img class="brand-logo" style="height: 40px;" src="@/assets/images/tronagency_logo.svg">
                             <span class="m-2 pt-2">Brander</span>
                         </b-navbar-brand>
                     </div>
@@ -25,7 +25,7 @@
 
                             <b-col class="d-none d-lg-block">
                                 <b-navbar-brand href="/" class="d-flex align-items-center justify-content-center">
-                                    <img class="brand-logo" style="height: 40px;" src="@/assets/tronagency_logo.svg">
+                                    <img class="brand-logo" style="height: 40px;" src="@/assets/images/tronagency_logo.svg">
                                     <span class="m-2 pt-2">Brander</span>
                                 </b-navbar-brand>
                             </b-col>
@@ -35,7 +35,7 @@
                                     <b-nav-item href="/join" class="nav-item">Join Us</b-nav-item>
                                     <b-nav-item href="/insight" class="nav-item">Insights</b-nav-item>
                                     <b-nav-item href="/talk" class="nav-item">
-                                        <img id="brand-logo" src="@/assets/messages.svg">
+                                        <img id="brand-logo" src="@/assets/images/messages.svg">
                                         <span class="mx-1">Let's Talk</span>
                                     </b-nav-item>
                                 </b-navbar-nav>

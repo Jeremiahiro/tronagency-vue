@@ -4,7 +4,7 @@
             <b-col cols-sm="12">
                 <div class="footer__container-logo">
                     <b-navbar-brand href="/" class="text-white d-flex align-items-center justify-content-center">
-                        <img class="brand-logo" style="height: 40px;" src="@/assets/tronagency_logo_white.svg">
+                        <img class="brand-logo" style="height: 40px;" src="@/assets/images/tronagency_logo_white.svg">
                         <span class="m-2 pt-2">Brander</span>
                     </b-navbar-brand>
                 </div>
@@ -62,19 +62,19 @@
                 <div class="my-3">
                     <b-navbar-nav class="d-flex flex-row">
                         <b-nav-item href="#" class="mx-2 nav-item">
-                            <img id="facebook-icon" height="20px" src="@/assets/facebook.svg">
+                            <img id="facebook-icon" height="20px" src="@/assets/images/facebook.svg">
                         </b-nav-item>
                         <b-nav-item href="#" class="mx-2 nav-item">
-                            <img id="instagram-icon" height="20px" src="@/assets/instagram.svg">
+                            <img id="instagram-icon" height="20px" src="@/assets/images/instagram.svg">
                         </b-nav-item>
                         <b-nav-item href="#" class="mx-2 nav-item">
-                            <img id="twitter-icon" height="20px" src="@/assets/twitterlogo.svg">
+                            <img id="twitter-icon" height="20px" src="@/assets/images/twitterlogo.svg">
                         </b-nav-item>
                         <b-nav-item href="#" class="mx-2 nav-item">
-                            <img id="youtube-icon" height="20px" src="@/assets/youtube.svg">
+                            <img id="youtube-icon" height="20px" src="@/assets/images/youtube.svg">
                         </b-nav-item>
                         <b-nav-item href="#" class="mx-2 nav-item">
-                            <img id="wordpress-icon" height="20px" src="@/assets/wordpress.svg">
+                            <img id="wordpress-icon" height="20px" src="@/assets/images/wordpress.svg">
                         </b-nav-item>
                     </b-navbar-nav>
                 </div>

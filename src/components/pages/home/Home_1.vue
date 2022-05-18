@@ -3,15 +3,15 @@
         <!-- Homepage top starts here -->
         <div class="py-3 px-5">
             <h1 class="display-3">
-            <span class="mx-5" style=""> Creating <span class=""><img style="height:40px" src="@/assets/ring.svg"></span> Products <span class=""><img style="height:13px" src="@/assets/left-arrow.svg"></span>
-                <span class=""><img  style="height:40px" src="@/assets/bud.svg"></span></span><br>
-                <span class="font-italic mx-5" style="padding-left:160px;">With outstanding <span class=""><img style="height:40px" src="@/assets/elipse-shape.svg"></span> Visual</span><br>
-                <span class="mx-5" style="padding-left:320px">and Great <span class=""><img style="height:40px" src="@/assets/wave-shape.svg"></span>Functionality</span>
+            <span class="mx-5" style=""> Creating <span class=""><img style="height:40px" src="@/assets/images/ring.svg"></span> Products <span class=""><img style="height:13px" src="@/assets/images/left-arrow.svg"></span>
+                <span class=""><img  style="height:40px" src="@/assets/images/bud.svg"></span></span><br>
+                <span class="font-italic mx-5" style="padding-left:160px;">With outstanding <span class=""><img style="height:40px" src="@/assets/images/elipse-shape.svg"></span> Visual</span><br>
+                <span class="mx-5" style="padding-left:320px">and Great <span class=""><img style="height:40px" src="@/assets/images/wave-shape.svg"></span>Functionality</span>
             </h1>
 
             <div class="vertival__line">
                 <span class="copy__right">
-                    <img style="height:200px" src="@/assets/vertical__line.png">
+                    <img style="height:200px" src="@/assets/images/vertical__line.png">
                 </span>
                 <span class="copy__right__year">
                 {{ currentYear }} © 
@@ -28,7 +28,7 @@
                         </b-col>
                         <b-col cols-sm="12" class="text-right">
                             <router-link to="/talk" class="">
-                                <img style="height:100px; padding-left:297px" src="@/assets/contact-us.svg">
+                                <img style="height:100px; padding-left:297px" src="@/assets/images/contact-us.svg">
                             </router-link>
                         </b-col>
                     </b-row>
@@ -40,9 +40,9 @@
         <!-- case study section starts here -->
         <b-row class="mt-5 px-5 position-relative">
             <b-col cols-sm="12" cols="6" class="position-relative">
-                <img src="@/assets/sylvia.png" height="600px">
+                <img src="@/assets/images/sylvia.png" height="600px">
                 <router-link to="/work" class="recent__work">
-                    <span class=""><img width="200" src="@/assets/Recent-work.svg"></span>
+                    <span class=""><img width="200" src="@/assets/images/Recent-work.svg"></span>
                 </router-link>
             </b-col>
             <b-col cols-sm="12" cols="6" class="d-inline-flex mt-5">
@@ -58,7 +58,7 @@
                         <p>UI/UX Design, Branding, Development</p>
 
                         <router-link to="/" class="nav_link mt-5">
-                            Read Case Study <img src="@/assets/case-study-arrow.svg">
+                            Read Case Study <img src="@/assets/images/case-study-arrow.svg">
                         </router-link>
                     </b-col>
                     <b-col class="p-5">
@@ -72,7 +72,8 @@
         </b-row>
         <!-- case study section ends ere -->
 
-        <div class="position-relative mb-5">
+        <!-- Our approach starts here -->
+        <div class="position-relative">
             <div class="overlay__container w-100">
                 <b-row class="px-5 py-3">
                     <b-col cols-sm="12" cols="7" class="p-5 mt-5 overlay__container_text text-justify">
@@ -83,22 +84,22 @@
                             Vast and complex businesses like these need digital experiences that are just as people-friendly as they are robust and scalable. <br>
                             Through challenging core assumptions, we shape the products and services that improve the lives of thousands every single day.
                         </p>
-                    <b-col class="p-5">
-                        <router-link  to="/" class="">
-                          <button class="ml-5 pl-5 pr-5 our__approach__button text-white">Our Approach</button>
+                    <b-col class="p-5 text-center">
+                        <router-link  to="/" class="our__approach_button">
+                            Our approach
                         </router-link>
                     </b-col>
                     </b-col>
                     <b-col class="p-5">
                         <h1 class="overlay__container_legend display-3">
-                            We bring everything that's <img style="width:40px" src="@/assets/emoji-happy.svg">
+                            We bring everything that's <img style="width:40px" src="@/assets/images/emoji-happy.svg">
                             require to build a product.
                         </h1>
                     </b-col>
                 </b-row>
             </div>
         </div>
-        
+        <!-- Our approach ends here -->
     </div>
 </template>
 
@@ -165,24 +166,20 @@ export default {
     }
     &_legend {
         color: #010101;
-        font-weight: 600
+        font-weight: 500;
+        font-family: 'Quando', serif;
     }
 }
 
-
-.down__overlay{
-    position:relative;
-    width:100%;
-}
-.overlay{
-    position: absolute;
-    background:#C4C4C480;
-    top:400px;
-    width:100%
-}
-.our__approach__button{
+.our__approach_button{
     background: #11271F;
     justify-content: center;
+    color: #fff;
+    border-radius: 6px;
+    padding: 10px 20px;
+    &:hover {
+        text-decoration: none;
+    }
     
 }
     
