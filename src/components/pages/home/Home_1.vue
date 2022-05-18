@@ -135,7 +135,7 @@
                 </b-row>
 
                 <b-row class="my-5 position-relative align-items-center">
-                    <b-col class="">
+                    <b-col cols-sm="12" class="">
                         <img src="@/assets/images/project.png" class="mx-auto" alt="Responsive image" />
                     </b-col>
                     <b-col>
@@ -284,3 +284,4 @@ export default {
 
 
 </style>
+  
