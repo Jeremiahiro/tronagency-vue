@@ -1,5 +1,6 @@
 <template>
     <div class="h-100 homepage__section p-5">
+        <!--third section start here-->
         <!--section3 first paragraph start here-->
         <div class="py-5 px-5">
             <h1 class="pl-5 display-2"><span class="quando">We translate research into solutions, 
@@ -39,7 +40,9 @@
             </router-link>
         </div>
         <!-- section3 last para end here -->
-        
+        <!-- third section end here -->
+
+                
     </div>
 </template>            
 
@@ -64,6 +67,10 @@ export default {
         margin-left:50px;
         margin-right:30px
     }
+    
 }
 
+
+
 </style>
+ 
