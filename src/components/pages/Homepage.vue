@@ -21,6 +21,6 @@ export default {
 
 <style lang="scss" scoped>
 .homepage__component {
-    background: #fff;
+    // background: #fff;
 }
 </style>
