@@ -179,7 +179,7 @@
                 <img class="ml-4" height="500" src="@/assets/images/priscillia.png" alt="responsive-image">
             </div>
             <div class="new_segment">
-                <div class="col-10 mx-auto mb-3">
+                <div class="col-9 mx-auto mb-3">
                     <p class="text-justify partners">
                         <img src="@/assets/images/right-arrow.svg"> 
                         We partner with design leaders of tech brands and growing businesses to create simple, functional, and scalable digital solutions. Our global team of researchers, strategists, creatives, and engineers work with streamlined processes to break through organizational roadblocks and shape the brands of tomorrow.
@@ -191,7 +191,7 @@
                     </router-link>
                 </div>
                 <b-row class="work__together-container align-items-center p-5">
-                    <b-col class="work__together" cols-md="12" cols="5">
+                    <b-col class="work__together px-5" cols-md="12" cols="5">
                         <p class="work__together_top">
                             <span class="quando">How can we</span> <br> work together?
                         </p>
@@ -199,7 +199,7 @@
                             We’ve developed a simple onboarding process to help us better understand our client's strategic needs.
                         </p>
                     </b-col>
-                    <b-col>
+                    <b-col class="px-5">
                         <img src="@/assets/images/group_icons.png" width="90%">
                     </b-col>
                 </b-row>
@@ -355,7 +355,7 @@ export default {
 
 .homepage__section_3 {
     .solutions {
-        font-size: 52px;
+        font-size: 56px;
         font-weight: 400;
     }
     .partners {
