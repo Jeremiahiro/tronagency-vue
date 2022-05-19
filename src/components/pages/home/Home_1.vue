@@ -85,7 +85,7 @@
                             Through challenging core assumptions, we shape the products and services that improve the lives of thousands every single day.
                         </p>
                     <b-col class="p-5 text-center">
-                        <router-link  to="/" class="our__approach_button">
+                        <router-link  to="/" class="homepage_btn">
                             Our approach
                         </router-link>
                     </b-col>
@@ -218,7 +218,7 @@
                             Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
                         </p>
                         <div class="text-center">
-                            <router-link to="/about" class="join__container-btn">
+                            <router-link to="/about" class="homepage_btn">
                                 About
                             </router-link>
                         </div>
@@ -228,13 +228,18 @@
         </div>
         <!-- Home section 3 ends here -->
 
+        <Home2 />
+
         <!-- bottom addon -->
         <img src="@/assets/images/big_wave.png" alt="" class="big_wave">
     </div>
 </template>
 
 <script>
+import Home2 from './Home_2.vue'
 export default {
+    components: { Home2 },
+
     data() {
         return {
             currentYear: new Date().getFullYear(),
@@ -310,17 +315,6 @@ export default {
     }
 }
 
-.our__approach_button{
-    background: #11271F;
-    justify-content: center;
-    color: #fff;
-    border-radius: 6px;
-    padding: 10px 20px;
-    &:hover {
-        text-decoration: none;
-    }
-}
-
 .homepage__section_2 {
     background-color: #11271F;
     position: relative;
@@ -385,16 +379,18 @@ export default {
         &-desc {
             font-size: 18px
         }
-        &-btn {
-            background: #11271F;
-            justify-content: center;
-            color: #fff;
-            border-radius: 6px;
-            padding: 10px 20px;
-            &:hover {
-                text-decoration: none;
-            }
-        }
+    }
+}
+
+.homepage_btn {
+    background: #11271F;
+    justify-content: center;
+    color: #fff;
+    border-radius: 6px;
+    padding: 10px 20px;
+    &:hover {
+        text-decoration: none;
+        background: rgb(30, 71, 54);
     }
 }
 
