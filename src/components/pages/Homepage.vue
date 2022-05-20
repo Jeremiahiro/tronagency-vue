@@ -1,6 +1,11 @@
 <template>
     <div class="h-100 homepage__component">
         <div class="homepage__top p-0 m-0 position-relative">
+
+            <div class="d-inline-flex align-items-center copy__right-info">
+                <hr class="mx-2" width="300px"> <span class="year">{{ currentYear }}</span> &copy;
+            </div>
+
             <!-- Homepage top starts here -->
             <div class="py-3 px-5">
                 <h1 class="display-3">
@@ -9,15 +14,7 @@
                     <span class="font-italic mx-5" style="padding-left:160px;">With outstanding <span class=""><img style="height:40px" src="@/assets/images/elipse-shape.svg"></span> Visual</span><br>
                     <span class="mx-5" style="padding-left:320px">and Great <span class=""><img style="height:40px" src="@/assets/images/wave-shape.svg"></span>Functionality</span>
                 </h1>
-
-                <div class="vertival__line">
-                    <span class="copy__right">
-                        <img style="height:200px" src="@/assets/images/vertical__line.png">
-                    </span>
-                    <span class="copy__right__year">
-                    {{ currentYear }} © 
-                    </span>
-                </div>
+                
                 <b-row>
                     <b-col cols="10" class="mx-auto my-4">
                         <b-row class="d-flex justify-content-between">
@@ -274,7 +271,7 @@
 export default {
     data() {
         return {
-            // 
+            currentYear: new Date().getFullYear(), // current year
         };
     }
 }
@@ -282,18 +279,23 @@ export default {
 
 <style lang="scss" scoped>
 .homepage__component {
-    .copy__right{
+
+    .copy__right-info {
         position:absolute;
-        top:200px;
-        left:60px;
+        top: 200px;
+        left: -150px;
+        transform: rotate(90deg);
+        -webkit-transform: rotate(90deg); 
+        -moz-transform: rotate(90deg);
+        .year {
+            transform: rotate(-180deg);
+        }
     }
     .quando {
         font-family: 'Quando', serif;
     }
     .copy__right__year{
-        position:absolute;
-        top:420px;
-        writing-mode: vertical-lr;
+        writing-mode: sideways-rl;
     }
     .f-18 {
         font-size: 16px;
