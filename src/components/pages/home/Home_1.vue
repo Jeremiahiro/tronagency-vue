@@ -1,5 +1,5 @@
 <template>
-    <div class="h-100 homepage__top p-0 m-0">
+    <div class="h-100 homepage__top p-0 m-0 position-relative">
         <!-- Homepage top starts here -->
         <div class="py-3 px-5">
             <h1 class="display-3">
@@ -85,7 +85,7 @@
                             Through challenging core assumptions, we shape the products and services that improve the lives of thousands every single day.
                         </p>
                     <b-col class="p-5 text-center">
-                        <router-link  to="/" class="our__approach_button">
+                        <router-link  to="/" class="homepage_btn">
                             Our approach
                         </router-link>
                     </b-col>
@@ -165,11 +165,81 @@
         </div>
         <!-- Home section 2 ends here-->
 
+        <!-- Home section 3 starts here -->
+        <div class="homepage__section_3 pt-5">
+            <div class="col-8 mx-auto solutions">
+                <span class="quando">
+                    We translate research into solutions, crafting thoughtful and unified
+                </span>
+                <em>brands, apps, websites, interfaces, and systems.</em>
+                <img class="" src="@/assets/images/foot.png">
+            </div>
+            <div class="p-5 m-4 d-flex justify-content-between align-items-start">
+                <img class="mt-5" src="@/assets/images/brooke-cagle.png" alt="responsive-image">
+                <img class="ml-4" height="500" src="@/assets/images/priscillia.png" alt="responsive-image">
+            </div>
+            <div class="new_segment">
+                <div class="col-9 mx-auto mb-3">
+                    <p class="text-justify partners">
+                        <img src="@/assets/images/right-arrow.svg"> 
+                        We partner with design leaders of tech brands and growing businesses to create simple, functional, and scalable digital solutions. Our global team of researchers, strategists, creatives, and engineers work with streamlined processes to break through organizational roadblocks and shape the brands of tomorrow.
+                    </p>
+                </div>
+                <div class="mx-auto p-5 text-center">
+                    <router-link to="/">
+                        <img src="@/assets/images/right-button.svg">
+                    </router-link>
+                </div>
+                <b-row class="work__together-container align-items-center p-5">
+                    <b-col class="work__together px-5" cols-md="12" cols="5">
+                        <p class="work__together_top">
+                            <span class="quando">How can we</span> <br> work together?
+                        </p>
+                        <p class="work__together_desc">
+                            We’ve developed a simple onboarding process to help us better understand our client's strategic needs.
+                        </p>
+                    </b-col>
+                    <b-col class="px-5">
+                        <img src="@/assets/images/group_icons.png" width="90%">
+                    </b-col>
+                </b-row>
+
+                <b-row class="align-items-center p-5">
+                    <b-col class="">
+                        <img src="@/assets/images/about_img.png" width="100%">
+                    </b-col>
+                    <b-col>
+                        <p class="join__container-top">
+                            <span class="quando">
+                                <span class="mx-5"></span>Join Tech Mates to shape experiences of tomorrow
+                            </span>
+                        </p>
+                        <p class="join__container-desc py-3">
+                            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+                        </p>
+                        <div class="text-center">
+                            <router-link to="/about" class="homepage_btn">
+                                About
+                            </router-link>
+                        </div>
+                    </b-col>
+                </b-row>
+            </div>
+        </div>
+        <!-- Home section 3 ends here -->
+
+        <Home2 />
+
+        <!-- bottom addon -->
+        <img src="@/assets/images/big_wave.png" alt="" class="big_wave">
     </div>
 </template>
 
 <script>
+import Home2 from './Home_2.vue'
 export default {
+    components: { Home2 },
+
     data() {
         return {
             currentYear: new Date().getFullYear(),
@@ -184,6 +254,9 @@ export default {
     top:200px;
     left:60px;
 }
+.quando {
+    font-family: 'Quando', serif;
+}
 .copy__right__year{
     position:absolute;
     top:420px;
@@ -196,6 +269,12 @@ export default {
     position: absolute;
     top:150px;
     right:30px;
+}
+.big_wave {
+    position: absolute;
+    bottom: -120px;
+    right: 0;
+    z-index: 1;
 }
 .case__study {
     &__container {
@@ -236,24 +315,10 @@ export default {
     }
 }
 
-.our__approach_button{
-    background: #11271F;
-    justify-content: center;
-    color: #fff;
-    border-radius: 6px;
-    padding: 10px 20px;
-    &:hover {
-        text-decoration: none;
-    }
-}
-
 .homepage__section_2 {
     background-color: #11271F;
     position: relative;
     color: #fff;
-    & .quando {
-        font-family: 'Quando', serif;
-    }
     .the_work {
         font-weight: 500;
         font-size: 48px;
@@ -282,6 +347,52 @@ export default {
     }
 }   
 
+.homepage__section_3 {
+    .solutions {
+        font-size: 56px;
+        font-weight: 400;
+    }
+    .partners {
+        font-size: 28px;
+    }
+    .new_segment {
+        background-image: url('../../../assets/images/blur_bg.png');
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+    .work__together {
+        &-container {
+            background-color: #fff;
+        }
+        &_top {
+            font-size: 50px;
+        }
+        &_desc {
+            line-height: 50px;
+            font-size: 24px
+        }
+    }
+    .join__container {
+        &-top {
+            font-size: 34px;
+        }
+        &-desc {
+            font-size: 18px
+        }
+    }
+}
+
+.homepage_btn {
+    background: #11271F;
+    justify-content: center;
+    color: #fff;
+    border-radius: 6px;
+    padding: 10px 20px;
+    &:hover {
+        text-decoration: none;
+        background: rgb(30, 71, 54);
+    }
+}
 
 </style>
   

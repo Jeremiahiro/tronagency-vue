@@ -1,48 +1,53 @@
 <template>
-    <div class="h-100 homepage__section p-5">
-        <!--third section start here-->
-        <!--section3 first paragraph start here-->
-        <div class="py-5 px-5">
-            <h1 class="pl-5 display-2"><span class="quando">We translate research into solutions, 
-                crafting thoughtful and unified</span> <span class="font-italic">brands, apps, websites, 
-                interfaces, and systems.</span>
-                <span class=""><img src="@/assets/images/wave-shape.svg"></span>
-                <img class="m-0 p-0" src="@/assets/images/pet.svg">
-                </h1>
+    <div class="h-100 homepage__section">
+        <!-- continue here -->
+        
+            
+        <div class="d-flex inline m-5 col-10 p-5" >
+           <b-row cols="2" class="highly-recommend__container ml-5">
+                    <b-col class="p-3">
+                        <div>
+                            <P>“I’d highly recommend TheBrander as a web design agency, having worked
+                                 with them on the design and development of a new website over the past 3-4 months.
+                                  From initial brand development
+                                 and refinement, to the design and implementation of the statements that 
+                                 it’s can’t be done! ”
+                            </P>
+                        </div>
+
+                        <div class="text-right">
+                            <img  class="mt-5 " src="@/assets/images/Group_line_image.png" style="height:80px">
+                        </div>
+                    </b-col>
+                    <b-col class="middle-line  pt-4 py-3">
+                        <h4 class="m-0 p-0">Testimonial</h4>
+                        
+
+                       <div lass="position-absolute-bottom">
+                           <p class=" wiliams_shakesspared pt-5 mt-5">Williams Shakesspared</p>
+                           <p class=" founder" >- Founder of Being A Company</p>
+                       </div>
+                    </b-col>
+                   
+                </b-row>
 
         </div>
-        <!--section3 first paragraph end here-->
+           
+        <div class="col-9 mx-auto mb-3">
+                    <h1 class="text-justify">
+                        <img style="" src="@/assets/images/zigzag_image.svg" width="30px"> 
+                        Have a project in mind? <span class="ml-5 pl-4">Let’s get to work.</span>
+                    </h1>
+                    <div class="mb-5 pt-4">
+                        <router-link  to="/" class="ml-5 start_a_project_btn">
+                                Start A Project
+                        </router-link>
+                    </div>
 
-        <!-- section3 images start here-->
-        <div class="">
-            <b-row class="px-5 py-5">
-                <b-col cols-sm="12" cols="4" class="">
-                    <img class="m-1 pt-5 " src="@/assets/images/priscilla.png" alt="responsive-image">
-                </b-col>
-                <b-col cols-sm="12" cols="7" class="right-image ">
-                    <img  class="m-3 pl-5" width="115%" src="@/assets/images/brooke-cagle.png" alt="responsive-image">
-                 </b-col>
-
-            </b-row>
         </div>
-        <!-- section3 images end here-->
-
-        <!-- section3 last para start here -->
-        <div class=" partner-paragraph justify-content-justify px-5 py-5 ">
-            <p class=" pl-5 pr-5 "><span class="pr-2"><img src="@/assets/images/right-arrow.svg" style="height:20px"></span>We partner with design leaders of tech brands and growing businesses to create simple, functional, and scalable digital solutions.
-               Our global team of researchers, strategists, creatives, and engineers work with streamlined processes to
-               break through organizational roadblocks and shape the brands of tomorrow.
-            </p>
-        </div>
-         <div class="ml-auto text-center">
-            <router-link to="/">
-                <img  class=""  src="@/assets/images/right-button.svg">
-            </router-link>
-        </div>
-        <!-- section3 last para end here -->
-        <!-- third section end here -->
-
-                
+            
+            
+               
     </div>
 </template>            
 
@@ -59,17 +64,47 @@ export default {
 <style lang="scss" scoped>
 .homepage__section {
     
-    .right-image{
-       padding-left:80px;
-}
-    .partner-paragraph{
-        font-size:35px;
-        margin-left:50px;
-        margin-right:30px
+    .start_a_project_btn{
+    background: #FEAC5E;
+    justify-content: center;
+    color: #000;
+    border-radius: 2px;
+    padding: 10px 20px;
+    font-size:16px;
+    
+
+    &:hover {
+        text-decoration: none;
+        background: #ac8660;
     }
+}
+
+.have_a_project {
+        font-size: 36px;
+        font-weight: 400;
+    }
+.highly-recommend__container{
+    border-top:1px solid  #000000;
+    border-bottom:1px solid  #000000;
+    font-size:20px
+}
+.middle-line{
+    border-left :1px solid  #000000;
+}
+.wiliams_shakesspared{
+    
+    font-size:16px;
+    margin-top:100px;
+}
+.founder{
+    font-size:16px
+}
+.text-justify{
+    font-size:74px;
     
 }
 
+}
 
 
 </style>
