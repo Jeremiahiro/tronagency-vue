@@ -16,13 +16,9 @@
                     <img src="@/assets/images/project_dashboard.png" width="100%" class="mx-auto" alt="Responsive image">
                 </div>
             </div>
-            <div class="ellipse_image_bg">
-                <b-row class="p-5" cols="8">
-                    <b-col cols-sm="12" cols="3" class="visit-website-bg px-3 ">
-                        
-                           
-                    </b-col>
-                    
+            
+               
+                 <b-row class="p-5" cols="8">
                     <b-col col-sm="12" class="px-5  pl-5 ml-5 pt-5">
                     <h1 class="the_client ml-5">The client</h1>
                     <p class="clientforce-paragraph ml-5 pr-5 mr-5">Clientforce is customer acquisition and sales automation platform based in San Diego. 
@@ -31,15 +27,19 @@
                         </p> 
                     </b-col>
                 </b-row>
-            </div>
+            
 
 
 
         <!--Workpage section1 ends here -->
+        
        
         <div class="workpage__section_2 p-5">
             <div class="px-5">
-                <div class="col-8 mx-auto challenge">
+
+                
+        <b-row class="p-2" cols="8">
+                <b-col col-sm="12" class="challenge px-5  pl-5 ">
                     
                     <h1 class="the_challenge ml-5">The challenge</h1>
                     <p class="chanlleng-paragraph ml-5 pr-5 mr-5">
@@ -47,13 +47,18 @@
                         Founded in 2013, the company has grown to a team of more than 50 people and helps 
                         a wide range of ecommerce businesses to get more from their email marketing efforts.
                     </p> 
-                </div>
-                <div class="col-8 mx-auto pt-3 solution">
+                </b-col>
+            </b-row>
+
+                
+             <b-row class="p-2" cols="8">
+                <b-col col-sm="12" class="solution px-5  pl-5 ">
                     <h1 class="the-solution">The solution</h1>
                     <p class="solution-paragraph">
                        We completed a full rebrand for Clientforce, supported by a brand new website with an optimised user experience and CMS integration. 
                     </p>
-                    </div>
+                </b-col>
+                </b-row>
             </div>
             <div class="white_image_logo p-5 m-5">
                 <div class="text-center p-5 m-5">
@@ -104,12 +109,46 @@
                 </div>
                 
             </div> 
+            <div cols-sm="12" class="col-2 visit-website-bg px-5 pt-3">
+                    
+                <p class="white_colored"> Visit website
+                    Headquarters
+                    San Diego, US
+                    </p>
+                    
+                    <p class="grey_colored">Industry
+                        SaaS, sales Automation
+                    </p>
+
+                    <p class="grey_colored">Company size
+                    51 — 200 employees
+                    </p>
+
+                    <p class="grey_colored">Funding
+                        ~$4.5M
+                    </p>
+
+                    <p class="black_colored">
+                    Services we provided
+                    Visual identity
+                    UX research
+                    Website design
+                    Design system
+                    CMS integration    
+                    </p>  
+                    <div class="">
+                        <img src="@/assets/images/leads _image.svg" style="height:150px">
+                        
+                    </div>    
+                    <p class="black_colored">Track major leads</p>                 
+                </div>
+            
             <div class="col-12 p-3 m-3">
                <img class="pt-5 mt-5  w-100 laptop_image" src="@/assets/images/laptop.png" style="height:400px">
             </div>
 
         </div>
-        <!-- workpage section2 start here -->
+        <!-- workpage section2 ends here -->
 
         <!-- workpage section3 start here -->
         <div class="workpage_section_3 p-5">
@@ -217,8 +256,9 @@ export default {
     background-image: url('../../../assets/images/visit_wesite_bg.png');
     background-repeat:no-repeat;
     background-size:100%; 
-    position: relative;
-    margin-top: -10px;
+    position: absolute;
+    top:-300px;
+    
     
 
     .ellipse_image_bg{
@@ -230,11 +270,13 @@ export default {
     }   
 }
 .the_client{
-    color:#ffff
+    color:#ffff;
+    padding-left:300px
 }
 .clientforce-paragraph{
     color: rgba(255, 255, 255, 0.46);
     font-size:23px;
+     padding-left:300px
     
 }
 .workpage__section_2{
@@ -243,19 +285,46 @@ export default {
     color: #fff;
     margin-top:-19px;
     .the_challenge{
-      color:#000000
+      color:#000000;
+      
     }
+    
+    
     .the-solution{
         color: #000000;
-    }
-    .challenge{
-        padding-left: 150px;
-         font-size:18px;
         
     }
     .solution{
-        padding-left: 190px;
+        margin-left:330px;
+        
+        color: rgba(255, 255, 255, 0.46);
+    }
+    .challenge{
+        margin-left:300px;
+        color: rgba(255, 255, 255, 0.46);
+        font-size:28px;
+
+
+    }
+    .chanlleng-paragraph{
+    
          font-size:18px;
+        color: rgba(255, 255, 255, 0.46);
+        
+    }
+    
+    .chanlleng-paragraph{
+        color: rgba(255, 255, 255, 0.46);
+    }
+    .white_colored{
+        color:#fff
+
+    }
+    .black_colored{
+        color:#000000;
+    }
+    .grey_colored{
+        color: rgba(255, 255, 255, 0.46);
     }
 }
 .white_image_logo{
