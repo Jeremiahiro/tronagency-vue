@@ -216,7 +216,7 @@
                         </p>
                         <p class="join__container-desc py-3">
                             Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
-                        </p>
+                          </p>
                         <div class="text-center">
                             <router-link to="/about" class="homepage_btn">
                                 About
