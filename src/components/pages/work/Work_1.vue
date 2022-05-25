@@ -109,6 +109,7 @@
                 </div>
                 
             </div> 
+            <!-- visit website start here -->
             <div cols-sm="12" class="col-2 visit-website-bg px-5 pt-3">
                     
                 <p class="white_colored"> Visit website
@@ -142,6 +143,7 @@
                     </div>    
                     <p class="black_colored">Track major leads</p>                 
                 </div>
+                <!-- visit website ends here -->
             
             <div class="col-12 p-3 m-3">
                <img class="pt-5 mt-5  w-100 laptop_image" src="@/assets/images/laptop.png" style="height:400px">
@@ -216,14 +218,66 @@
                     <img src="@/assets/images/section_4_group_image.png" class="w-100">
                 </div>
             </div>
+
+            <!--debrander agency game start here -->
+            <div class="testimonail__section">
+                <div class="" >
+                    <b-row cols="2" class="my-5 col-9 mx-auto testimonial__section">
+                        <b-col class="testimonial__section-left p-4" cols="6">
+                            <P class="text-justify">
+                                “TheBrander Agency was a game changer for Teachable — we used them to design our homepage (and have used that for many years) and they were the first people we turned to when we needed to build a marketplace. 
+                                I highly recommend them and our team loves working with them.”                      </P>
+                            <img  class="float-right mt-5 " src="@/assets/images/debrander-game-image.png" style="height:80px">
+                        </b-col>
+                        <b-col class="testimonial__section-right p-4 d-flex flex-column justify-content-between">
+                            <h4 class="m-0 p-0">100k+ — creators using <br>
+                            Teachable every day.
+                            </h4>
+                            <p class="">
+                                Anthony Raden<br>
+                                ~ Founder of Being A Company
+                            </p>
+                        </b-col>
+                    </b-row>
+                </div>
+                
+                <b-row class="col-12  mx-auto my-3 project">
+                    <b-col cols="6">
+                        <div class="text-justify d-flex align-items-end">
+                             <div class="">
+                                <h1 class="pl-5 project_title quando">Have a project <br>in mind? Let’s<br/> get to work.</h1>
+                             </div>
+                           
+                        </div>
+                        <div class="mb-5 pt-4">
+                            <router-link  to="/" class="ml-5 project_btn">
+                                Start A Project
+                            </router-link>
+                        </div>
+                         <div class="text-right  py-4">
+                                <img class="pt-5 " src="@/assets/images/zigzag_image.png" height="250px">
+                            </div>
+                        </b-col>
+                        <b-col cols="6" class="">
+                            <div class="">
+                                <img src="@/assets/images/cup_image.png" height="100px"><span class="px-4">Hello There! I’m Lamii Lambo</span>
+                                
+                            </div>
+
+                            <div class="pt-3">
+                                <img src="@/assets/images/textarea_image.png" class="w-100" height="130px">
+                            </div>
+                        </b-col>
+                </b-row>
+            </div>
+            <!-- debrander agency game ends here -->
         
         </div>
         
         <!-- workpage section4 end here -->
 
-        
-       
-        
+        <!-- bottom addon -->
+        <img src="@/assets/images/big_wave.png" alt="" class="big_wave">
     </div>
     
 </template>
@@ -414,7 +468,7 @@ export default {
     }
     .client_finder_net{
         position:absolute;
-        bottom:0;
+        top:0px;
         z-index:1;
     }
 
@@ -423,5 +477,39 @@ export default {
 .workpage_section_4{
     background-color:#DCDCDC;
 ;
+}
+.testimonail__section {
+        .project {
+            &_title {
+                font-size: 60px;
+                font-weight: 400;
+            }
+            &_btn {
+                background: #FEAC5E;
+                justify-content: center;
+                color: #000;
+                border-radius: 2px;
+                padding: 10px 20px;
+                font-size:16px;
+                &:hover {
+                    text-decoration: none;
+                    background: #faae68;
+                }
+            }
+        }
+        .testimonial__section {
+            font-size:20px;
+            
+            border-bottom: 1px solid  #000000;
+            &-right {
+                border-left :1px solid  #000000;
+            }
+        }
+    }
+    .big_wave {
+    position: absolute;
+    bottom: -120px;
+    right: 0;
+    z-index: 1;
 }
 </style>
