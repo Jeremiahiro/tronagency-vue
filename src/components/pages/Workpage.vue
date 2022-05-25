@@ -5,9 +5,7 @@
 </template>
 
 <script>
-import Work1 from './work/Work_1.vue';
-
-
+import Work1 from './work/Work_1.vue'
 export default {
     components: { Work1 },
     data() {
