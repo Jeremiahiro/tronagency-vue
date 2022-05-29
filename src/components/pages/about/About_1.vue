@@ -7,7 +7,7 @@
          </div>
 
         <div class="mx-auto text-center w-full p-5 mt-5">
-                    <img  src="@/assets/images/saas_coy.png" width="100%" class="mx-auto pt-5" alt="Responsive image" />
+                 <img  src="@/assets/images/saas_coy.png" width="100%" class="mx-auto pt-5" alt="Responsive image" />
         </div>
         <b-row class="col-12  mx-auto  project">
                     <b-col cols="6" class="px-5">
