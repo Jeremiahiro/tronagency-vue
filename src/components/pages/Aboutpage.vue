@@ -19,6 +19,6 @@ export default {
 
 <style lang="scss" scoped>
 .about__component {
-    background: #fff;
+    ///
 }
 </style>
