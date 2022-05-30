@@ -265,7 +265,7 @@ export default {
 
 <style lang="scss" scoped>
 .aboutpage__top{
-    background: #DCDCDC;
+    
      .quando{
            //font-weight: 500;
         font-family: 'Quando', serif;
