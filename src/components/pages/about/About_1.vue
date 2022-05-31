@@ -17,9 +17,7 @@
                     automation platform that helps you find your 
                     ideal customers with a few clicks.
                     </p>
-                </div>
-                
-                    
+                </div>     
             </b-col>
             <b-col cols="6" class="">
                     
@@ -88,7 +86,7 @@
                         <div class="mb-5 left_image">
                             
                             <img class=" mt-5 position-absolute id_card" src="@/assets/images/ID CARD A 1.png">
-                                <img class="  pl-5 letter_headed" src="@/assets/images/Letterhead 1.png">
+                                <img class="letter_headed ml-5" src="@/assets/images/Letterhead 1.png">
                                 
                         </div>
                         
@@ -141,20 +139,29 @@
         <div class="aboutpage__section_3 p-5 ">
         
             <div class="d-inline-flex section_3_4_overlap_image mb-5 ">
-                <div class="col-12 mb-5">
-                
-                    <img class="  pl-5 mb-5 position-absolute referal_image" src="@/assets/images/referal_image2.png" width="40%"> 
-                    <img class="pl-5 referal_image_1 w-100" src="@/assets/images/referal_image1.png">
-                </div>
-                
-                <div class="col-4 pl-5 p-5 vira_referral">
-                    <img class="mb-5 pt-5" src="@/assets/images/aboutpage_logo.png">
-                   <p class="pl-5 ">
-                    The Viral Referral System that is based on Rewards
-                    to customers for referrals. This word-of-mouth technique will help you generate traffic,
+             <b-row class="col-12 mb-5">
+                <b-col cols-sm="12" cols="7" class="pt-5 mb-5 pl-5 ml-5">  
+                    <div class="pl-5">
+                    <!--img class="  pl-5 mb-5 position-absolute referal_image" src="@/assets/images/referal_image2.png" height="800px"> 
+                    <img class="referal_image_1" src="@/assets/images/referal_image1.png"-->
+                     <img class="referal_image mx-5 my-5" src="@/assets/images/referal_image1.png" width="1450px">
+                     <img class="position-absolute referal_image_1" height="850px" src="@/assets/images/referal_image2.png">
+                    </div>
+
+                </b-col>    
+                <b-col cols-sm="12" cols="4" class="   vira_referral">
+                   <img class="mb-5"  src="@/assets/images/aboutpage_logo.png">
+                   <p class="pl-5">
+                        The Viral Referral System that is based on Rewards
+                        to customers for referrals. This word-of-mouth technique will help you generate traffic,
                    </p>
-                </div>
+                </b-col>
     
+                
+                
+                </b-row>
+                
+                
             </div>    
            
               <div class="tronweb-container_2 p-5 mx-auto d-inline-flex">
@@ -265,7 +272,6 @@ export default {
 
 <style lang="scss" scoped>
 .aboutpage__top{
-    
      .quando{
            //font-weight: 500;
         font-family: 'Quando', serif;
@@ -274,9 +280,7 @@ export default {
         font-size:50px;
     }
     .customer_acquisition{
-        font-size:23px;
-        
-        
+        font-size:23px; 
         
     }
     .text-left {
@@ -304,19 +308,24 @@ export default {
         background-color: #11271F;
         position: relative;
         color: #fff;
-        .project{
-           // padding-top:100px;
-        }
+        
             .marshal{
                 font-size:23px
             }
             .great_thing{
                 font-size:21px
             }
-        .tronweb_id_card_letter_headed{  
+        .tronweb_id_card_letter_headed{
+           background-image: url('../../../assets/images/tronweb_bg.svg');
+            background-repeat: no-repeat;
+            
+            //margin-top:100px;
+            
             .letter_headed{
-                margin-left:270px;
-                margin-top:-100px
+            
+            padding-left:300px;
+            margin-top:-100px;
+            
                 
             }
             .id_card{
@@ -337,16 +346,38 @@ export default {
         color: #000000;
         .section_3_4_overlap_image{
             position:absolute;
-            top:-150px;
+            top:-190px;
+            .referal_image_1{
+                left:0
+            }
+            .referal_image{
+              
+            //margin-top:-100px;
+            //margin-left:-114px; 
+            position:absolute;
+            left:-190px;
+            top:-90px
+                
+        }
+        .vira_referral{
+            //margin-top:300px;
+           // margin-left:600px;
+            //position:absolute;
+            //font-size:18px;
+            top:500px;
+            right:50px;
+            
+            font-size:19px;
+            
+        }
+      
         }
         .brand_new_software{
             font-size:18px;
         }
         .smiley_group{
             margin-top:600px;
-            .smiley_man{
-                
-            }
+            
             .smiley_man_overlap{
                 position:absolute;
                 bottom:-160px;
@@ -361,20 +392,7 @@ export default {
     }
     
 
-    .referal_image_1{
-        
-        margin-top:-100px;
-        margin-left:-114px;   
-            
-        }
-        .vira_referral{
-            margin-top:300px;
-            margin-left:600px;
-            position:absolute;
-            font-size:18px;
-            
-        }
-        
+      
     .left_image_1{
         margin-top:400px;
     }

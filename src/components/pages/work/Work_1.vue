@@ -33,130 +33,131 @@
 
         <!--Workpage section1 ends here -->
         
-       
+       <!-- workpage section2 start here -->
         <div class="workpage__section_2 p-5">
-            <div class="px-5">
+            <div class="mb-5 pb-5">
+                <div class="mb-5 pb-5">
 
-                
-        <b-row class="p-2" cols="8">
-                <b-col col-sm="12" class="challenge px-5  pl-5 ">
                     
-                    <h1 class="the_challenge ml-5">The challenge</h1>
-                    <p class="chanlleng-paragraph ml-5 pr-5 mr-5">
-                        Clientforce is customer acquisition and sales automation platform based in San Diego. 
-                        Founded in 2013, the company has grown to a team of more than 50 people and helps 
-                        a wide range of ecommerce businesses to get more from their email marketing efforts.
-                    </p> 
-                </b-col>
-            </b-row>
+                    <b-row class="p-2" cols="8">
+                            <b-col col-sm="12" class="challenge px-5  pl-5 ">
+                                
+                                <h1 class="the_challenge ml-5">The challenge</h1>
+                                <p class="chanlleng-paragraph ml-5 pr-5 mr-5">
+                                    Clientforce is customer acquisition and sales automation platform based in San Diego. 
+                                    Founded in 2013, the company has grown to a team of more than 50 people and helps 
+                                    a wide range of ecommerce businesses to get more from their email marketing efforts.
+                                </p> 
+                            </b-col>
+                        </b-row>
 
-                
-             <b-row class="p-2" cols="8">
-                <b-col col-sm="12" class="solution px-5  pl-5 ">
-                    <h1 class="the-solution">The solution</h1>
-                    <p class="solution-paragraph">
-                       We completed a full rebrand for Clientforce, supported by a brand new website with an optimised user experience and CMS integration. 
-                    </p>
-                </b-col>
-                </b-row>
-            </div>
-            <div class="white_image_logo p-5 m-5">
-                <div class="text-center p-5 m-5">
-                <img src="@/assets/images/clientforce_rec_image.png" style="height:100px">
-                </div>
-            </div>
-             <img src="@/assets/images/big_net_image.svg" alt="" class="big_net" style="height:150px;">
+                            
+                    <b-row class="p-2" cols="8">
+                        <b-col col-sm="12" class="solution px-5  pl-5 ">
+                            <h1 class="the-solution">The solution</h1>
+                            <p class="solution-paragraph">
+                            We completed a full rebrand for Clientforce, supported by a brand new website with an optimised user experience and CMS integration. 
+                            </p>
+                        </b-col>
+                        </b-row>
+                    </div>
+                    <div class="white_image_logo p-5 m-5">
+                        <div class="text-center p-5 m-5">
+                            <img src="@/assets/images/clientforce_rec_image.png" style="height:100px">
+                        </div>
+                    </div>
+                    <img src="@/assets/images/big_net_image.svg" alt="" class="big_net" style="height:150px;">
 
-            
-                <div class="p-5 green_container d-flex">             
-                  <div class="col-6 green_rectangle1 ">
-                      <div class="text-center">
-                      <img class="p-5 mx-5 py-5  pt-5 green_logo_image" src="@/assets/images/logo.png">
-                      </div>
-                  </div>
-                   <div class="col-6 green_rectangle2 pl-5 ml-3">
+                    
+                    <div class="p-5 green_container d-flex">             
+                        <div class="col-6 green_rectangle1 ">
+                            <div class="text-center">
+                                <img class="p-5 mx-5 py-5  pt-5 green_logo_image" src="@/assets/images/logo.png">
+                            </div>
+                        </div>
+                        <div class="col-6 green_rectangle2 pl-5 ml-3">
                         <div class="mb-5 left_image">
-                           
+                            
                             <img class="ml-5  mt-5 position-absolute right-image-pic" src="@/assets/images/overlap_left_image.svg">
-                             <img class="mt-5  left_image_pic" src="@/assets/images/overlap_right_image.svg">
+                            <img class="mt-5  left_image_pic" src="@/assets/images/overlap_right_image.svg">
                         </div>
                         
-                        
-                      
-                  </div>
-                 
-             </div>
-             
-             <div class="p-3 m-3">
-                      <h1 class="quando">Visual identity</h1>
-                      <p class="after_extensive">After extensive competitor research, we identified a color space and developed visual language specifically designed to help Sendlane stand out from the rest of the market, aid visual recall and develop brand awareness. The bright pink envelope mark, lively 
-                          palette and quirky patterns also evoke Sendland’s core cultural and values; positivity, passion and diversity.</p>
-
-                        <p class="new_visual_identity">The new visual identity is underpinned by a system of easy-to-use guidelines that we developed for Sendlane’s marketing team, empowering them to confidentially use the brand in their communications to its full effect, without the daily support of an agency.</p>
-            </div>
-             <div class="p-3 m-3">
-               <img class=" w-100" src="@/assets/images/Twitter Banner.png">
-            </div>
-            <div class="banner_container d-flex p-3 ">
-                <div class="col-4">
-                    <img  class="" width="100%" src="@/assets/images/facebook_dp.svg" >
-                    <img  class="mt-5" width="100%" src="@/assets/images/1 7.png">
-                </div>
-                <div class="col-8">
-                     <img class="w-100  " src="@/assets/images/facebook Banner.png" >
-                     <img class="w-100 mt-3  " src="@/assets/images/Linkedin Banner.svg">
-                     <img class="mt-3 w-100" src="@/assets/images/line_groups.svg">
+                    </div>
+                    
                 </div>
                 
-            </div> 
-            <!-- visit website start here -->
-            <div cols-sm="12" class="col-2 visit-website-bg px-5 pt-3">
-                    
-                <p class="white_colored"> Visit website
-                    Headquarters
-                    San Diego, US
-                    </p>
-                    
-                    <p class="grey_colored">Industry
-                        SaaS, sales Automation
-                    </p>
+                <div class="p-3 m-3">
+                        <h1 class="quando">Visual identity</h1>
+                        <p class="after_extensive">After extensive competitor research, we identified a color space and developed visual language specifically designed to help Sendlane stand out from the rest of the market, aid visual recall and develop brand awareness. The bright pink envelope mark, lively 
+                            palette and quirky patterns also evoke Sendland’s core cultural and values; positivity, passion and diversity.</p>
 
-                    <p class="grey_colored">Company size
-                    51 — 200 employees
-                    </p>
-
-                    <p class="grey_colored">Funding
-                        ~$4.5M
-                    </p>
-
-                    <p class="black_colored">
-                    Services we provided
-                    Visual identity
-                    UX research
-                    Website design
-                    Design system
-                    CMS integration    
-                    </p>  
-                    <div class="">
-                        <img src="@/assets/images/leads _image.svg" style="height:150px">
-                        
-                    </div>    
-                    <p class="black_colored">Track major leads</p>                 
+                            <p class="new_visual_identity">The new visual identity is underpinned by a system of easy-to-use guidelines that we developed for Sendlane’s marketing team, empowering them to confidentially use the brand in their communications to its full effect, without the daily support of an agency.</p>
                 </div>
-                <!-- visit website ends here -->
-            
-            <div class="col-12 p-3 m-3">
-               <img class="pt-5 mt-5  w-100 laptop_image" src="@/assets/images/laptop.png" style="height:400px">
-            </div>
+                <div class="p-3 m-3">
+                <img class=" w-100" src="@/assets/images/Twitter Banner.png">
+                </div>
+                <div class="banner_container d-flex p-3 mb-5 ">
+                    <div class="col-4 mb-5">
+                        <img  class="" width="100%" src="@/assets/images/facebook_dp.svg" >
+                        <img  class="mt-5" width="100%" src="@/assets/images/1 7.png">
+                    </div>
+                    <div class="col-8 mb-5">
+                        <img class="w-100  " src="@/assets/images/facebook Banner.png" >
+                        <img class="w-100 mt-3  " src="@/assets/images/Linkedin Banner.svg">
+                        <img class="mt-3 w-100" src="@/assets/images/line_groups.svg">
+                    </div>
+                    
+                </div> 
+                <!-- visit website start here -->
+                <div cols-sm="12" class="col-2 visit-website-bg px-5 pt-3">
+                        
+                    <p class="white_colored"> Visit website
+                        Headquarters
+                        San Diego, US
+                        </p>
+                        
+                        <p class="grey_colored">Industry
+                            SaaS, sales Automation
+                        </p>
 
+                        <p class="grey_colored">Company size
+                        51 — 200 employees
+                        </p>
+
+                        <p class="grey_colored">Funding
+                            ~$4.5M
+                        </p>
+
+                        <p class="black_colored">
+                        Services we provided
+                        Visual identity
+                        UX research
+                        Website design
+                        Design system
+                        CMS integration    
+                        </p>  
+                        <div class="">
+                            <img src="@/assets/images/leads _image.svg" style="height:150px">
+                            
+                        </div>    
+                        <p class="black_colored">Track major leads</p>                 
+                    </div>
+                    <!-- visit website ends here -->
+                
+               
+            </div>
+             
+        </div>
+        <div class="col-12  m-3">
+            <img class="pt-5 my-5 laptop_image" src="@/assets/images/laptop.png" width="100%">
         </div>
         <!-- workpage section2 ends here -->
 
         <!-- workpage section3 start here -->
         <div class="workpage_section_3 p-5">
-            <div class="p-2 m-2">
+            <div class="p-2 m-2 pt-5 mt-5">
                 <h1 class="quando pt-5">Website and UX development.</h1>
-                <p class="website_ux mt-5">Our data-backed research combined with a strong cross-team 
+                <p class="website_ux mt-5 pt-3">Our data-backed research combined with a strong cross-team 
                     collaboration ensured we took a more holistic approach to 
                     create the new website.</p>
 
@@ -351,7 +352,7 @@ export default {
     .solution{
         margin-left:330px;
         
-        color: rgba(255, 255, 255, 0.46);
+        color: rgba(0, 0, 0, 0.46);
     }
     .challenge{
         margin-left:300px;
@@ -368,7 +369,7 @@ export default {
     }
     
     .chanlleng-paragraph{
-        color: rgba(255, 255, 255, 0.46);
+        color:rgba(0, 0, 0, 0.46);
     }
     .white_colored{
         color:#fff
@@ -424,7 +425,7 @@ export default {
 }
 .laptop_image{
     position: absolute;
-    bottom:-350px;
+    bottom:0px;
     left: 0;
     z-index: 1;
 }
