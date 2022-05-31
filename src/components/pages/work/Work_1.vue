@@ -12,16 +12,16 @@
                     automation platform that helps you <span class="quando">find your ideal customers with a few clicks.</span>
                 </div>
 
-                <div class="mx-auto text-center w-full">
+                <div class="mx-auto text-center w-full mb-5 pb-5">
                     <img src="@/assets/images/project_dashboard.png" width="100%" class="mx-auto" alt="Responsive image">
                 </div>
             </div>
             
                
-                 <b-row class="p-5" cols="8">
-                    <b-col col-sm="12" class="px-5  pl-5 ml-5 pt-5">
+                 <b-row class="p-5" cols="9">
+                    <b-col col-sm="12" class=" client px-5  pl-5">
                     <h1 class="the_client ml-5">The client</h1>
-                    <p class="clientforce-paragraph ml-5 pr-5 mr-5">Clientforce is customer acquisition and sales automation platform based in San Diego. 
+                    <p class="ml-5 ">Clientforce is customer acquisition and sales automation platform based in San Diego. 
                         Founded in 2013, the company has grown to a team of more than 50 people and helps a wide range 
                         ecommerce businesses to get more from their email marketing efforts.
                         </p> 
@@ -35,31 +35,31 @@
         
        <!-- workpage section2 start here -->
         <div class="workpage__section_2 p-5">
-            <div class="mb-5 pb-5">
+            <div class="mb-5 pb-5 segment_2">
                 <div class="mb-5 pb-5">
 
-                    
-                    <b-row class="p-2" cols="8">
-                            <b-col col-sm="12" class="challenge px-5  pl-5 ">
-                                
-                                <h1 class="the_challenge ml-5">The challenge</h1>
-                                <p class="chanlleng-paragraph ml-5 pr-5 mr-5">
-                                    Clientforce is customer acquisition and sales automation platform based in San Diego. 
-                                    Founded in 2013, the company has grown to a team of more than 50 people and helps 
-                                    a wide range of ecommerce businesses to get more from their email marketing efforts.
-                                </p> 
+
+                        <b-row class="p-2" cols="12">
+                            <b-col col-sm="12" cols="9" class="solution px-5  pl-5">
+                                <h1 class="the_solution ml-5">The challenge</h1>
+                                <p class="ml-5">
+                                    Clientforce is customer acquisition and sales automation platform based 
+                                    in San Diego. Founded in 2013, the company has grown to a team of more than 50 people and helps a wide range of 
+                                    ecommerce businesses to get more from their email marketing efforts.
+                                </p>
+
+                            </b-col>
+                        </b-row>
+                        <b-row class="p-2" cols="12">
+                            <b-col col-sm="12" cols="9" class="solution px-5 pl-5">
+                                <h1 class="the_solution ml-5">The Solution</h1>
+                                <p class="ml-5">We completed a full rebrand for Clientforce, supported by a brand new 
+                                    website with an optimised user experience and CMS integration.
+                                </p>
+
                             </b-col>
                         </b-row>
 
-                            
-                    <b-row class="p-2" cols="8">
-                        <b-col col-sm="12" class="solution px-5  pl-5 ">
-                            <h1 class="the-solution">The solution</h1>
-                            <p class="solution-paragraph">
-                            We completed a full rebrand for Clientforce, supported by a brand new website with an optimised user experience and CMS integration. 
-                            </p>
-                        </b-col>
-                        </b-row>
                     </div>
                     <div class="white_image_logo p-5 m-5">
                         <div class="text-center p-5 m-5">
@@ -96,12 +96,12 @@
                 <div class="p-3 m-3">
                 <img class=" w-100" src="@/assets/images/Twitter Banner.png">
                 </div>
-                <div class="banner_container d-flex p-3 mb-5 ">
+                <div class="banner_container d-flex p-3 mb-5 pb-5">
                     <div class="col-4 mb-5">
                         <img  class="" width="100%" src="@/assets/images/facebook_dp.svg" >
                         <img  class="mt-5" width="100%" src="@/assets/images/1 7.png">
                     </div>
-                    <div class="col-8 mb-5">
+                    <div class="col-8">
                         <img class="w-100  " src="@/assets/images/facebook Banner.png" >
                         <img class="w-100 mt-3  " src="@/assets/images/Linkedin Banner.svg">
                         <img class="mt-3 w-100" src="@/assets/images/line_groups.svg">
@@ -109,48 +109,52 @@
                     
                 </div> 
                 <!-- visit website start here -->
-                <div cols-sm="12" class="col-2 visit-website-bg px-5 pt-3">
-                        
-                    <p class="white_colored"> Visit website
-                        Headquarters
-                        San Diego, US
-                        </p>
-                        
-                        <p class="grey_colored">Industry
-                            SaaS, sales Automation
-                        </p>
-
-                        <p class="grey_colored">Company size
-                        51 — 200 employees
-                        </p>
-
-                        <p class="grey_colored">Funding
-                            ~$4.5M
-                        </p>
-
-                        <p class="black_colored">
-                        Services we provided
-                        Visual identity
-                        UX research
-                        Website design
-                        Design system
-                        CMS integration    
-                        </p>  
-                        <div class="">
-                            <img src="@/assets/images/leads _image.svg" style="height:150px">
+                <b-col cols-sm="12" cols="3" class=" visit-website-bg px-5 pt-3">
+                    <div class=" m-5">    
+                        <p class="white_colored"> Visit website
+                            Headquarters
+                            San Diego, US
+                            </p>
                             
-                        </div>    
-                        <p class="black_colored">Track major leads</p>                 
-                    </div>
+                            <p class="grey_colored">Industry
+                                SaaS, sales Automation
+                            </p>
+
+                            <p class="grey_colored">Company size
+                            51 — 200 employees
+                            </p>
+
+                            <p class="grey_colored">Funding
+                                ~$4.5M
+                            </p>
+
+                            <p class="black_colored">
+                            Services we provided
+                            Visual identity
+                            UX research
+                            Website design
+                            Design system
+                            CMS integration    
+                            </p>  
+                            <div class="">
+                                <img src="@/assets/images/leads _image.svg" style="height:150px">
+                                
+                            </div>    
+                            <p class="black_colored">Track major leads</p>   
+                        </div>              
+                     </b-col>
                     <!-- visit website ends here -->
                 
                
             </div>
-             
+              <div class="laptop_image position-relative">
+            <img class="w-100" src="@/assets/images/laptop.png" height="400px">
         </div>
-        <div class="col-12  m-3">
-            <img class="pt-5 my-5 laptop_image" src="@/assets/images/laptop.png" width="100%">
         </div>
+        <!--div class="col-12  m-5 pb-5 ">
+            <img class="pt-5 mx-5 my-5 laptop_image" src="@/assets/images/laptop.png" height="600px">
+        </div-->
+       
         <!-- workpage section2 ends here -->
 
         <!-- workpage section3 start here -->
@@ -197,19 +201,20 @@
             <div class="d-flex p-5 pt-5">
                 <div class="col-6 client_finder w-100 ">
                     <img  class="pt-5  position-absolute w-100 client_finder_image"  style="height:380px" src="@/assets/images/Client finder.png" >
-                    
+                     <img src="@/assets/images/big_net_image.svg" alt="" class="client_finder_net" style="height:150px;">
+            
                 </div>
                 <div class="col-6 campaign w-100">
                      <img class="w-100 campaign_image" src="@/assets/images/Campaign.png" >
                 </div>
                  
 
+
             </div> 
             
+ 
         </div>
-        <img src="@/assets/images/big_net_image.svg" alt="" class="client_finder_net" style="height:150px;">
-
-        
+               
         <!-- workpage section3 end here -->
 
         <!-- workpage section4 start here -->
@@ -242,7 +247,7 @@
                     </b-row>
                 </div>
                 
-                <b-row class="col-12  mx-auto my-3 project">
+                <b-row class="col-12  mx-auto my-3 project pt-5 mt-5">
                     <b-col cols="6">
                         <div class="text-justify d-flex align-items-end">
                              <div class="">
@@ -256,7 +261,7 @@
                             </router-link>
                         </div>
                          <div class="text-right  py-4">
-                                <img class="pt-5 " src="@/assets/images/zigzag_image.png" height="250px">
+                                <img class="zigzag_image position-relative" src="@/assets/images/zigzag_image.png" height="250px">
                             </div>
                         </b-col>
                         <b-col cols="6" class="">
@@ -296,14 +301,15 @@ export default {
 <style lang="scss" scoped>
 .workpage__section {
     color: #ffff;
-}
-.text__container{
+    .text__container{
     color:#ffff;
     font-size:48px;
     .quando{
         color:#fff;
         font-size:43px;
     }
+
+}
 
 }
 .visit-website-bg{
@@ -313,64 +319,35 @@ export default {
     background-size:100%; 
     position: absolute;
     top:-300px;
-    
-    
 
-    .ellipse_image_bg{
-    
-        background-image: url('../../../assets/images/Ellipse_bg_image.svg');
-        background-repeat: no-repeat;
-        background-size:100%  100%
-       
-    }   
+}
+.client{
+    margin-left:330px;
+    color: rgba(255, 255, 255, 0.46); 
 }
 .the_client{
     color:#ffff;
-    padding-left:300px
-}
-.clientforce-paragraph{
-    color: rgba(255, 255, 255, 0.46);
-    font-size:23px;
-     padding-left:300px
     
 }
+
 .workpage__section_2{
  background-color:#DCDCDC;
     position: relative;
     color: #fff;
     margin-top:-19px;
-    .the_challenge{
-      color:#000000;
-      
-    }
     
     
-    .the-solution{
+    .the_solution{
         color: #000000;
         
     }
     .solution{
         margin-left:330px;
-        
         color: rgba(0, 0, 0, 0.46);
     }
-    .challenge{
-        margin-left:300px;
-        color: rgba(255, 255, 255, 0.46);
-        font-size:28px;
-
-
-    }
-    .chanlleng-paragraph{
     
-         font-size:18px;
-        color: rgba(255, 255, 255, 0.46);
-        
-    }
     
-    .chanlleng-paragraph{
-        color:rgba(0, 0, 0, 0.46);
-    }
+    
     .white_colored{
         color:#fff
 
@@ -413,6 +390,8 @@ export default {
 
 .quando{
     color: #000000;
+    font-family: 'Quando', serif;
+
 
 }
 .after_extensive{
@@ -424,8 +403,8 @@ export default {
     font-size:23px
 }
 .laptop_image{
-    position: absolute;
-    bottom:0px;
+    
+    margin-bottom:-300px;
     left: 0;
     z-index: 1;
 }
@@ -468,9 +447,11 @@ export default {
 
     }
     .client_finder_net{
+        left:-50px;
         position:absolute;
-        top:0px;
-        z-index:1;
+        bottom:-80px
+        
+        
     }
 
 }
@@ -505,6 +486,9 @@ export default {
             &-right {
                 border-left :1px solid  #000000;
             }
+        }
+        .zigzag_image{
+            top:-130px
         }
     }
     .big_wave {
