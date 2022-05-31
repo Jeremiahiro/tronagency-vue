@@ -38,6 +38,7 @@ export default {
     flex-direction: column;
     min-height: 100vh;
     overflow-x: hidden;
+    font-family: 'Poppins', sans-serif;
     .navbar__container{
         color:#fff
     }
