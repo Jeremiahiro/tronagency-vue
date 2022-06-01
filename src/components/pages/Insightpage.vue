@@ -18,7 +18,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.homepage__component {
-    // background: #fff;
-}
+.insight__component{
+        //
+    }
 </style>
