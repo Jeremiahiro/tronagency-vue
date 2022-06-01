@@ -5,12 +5,16 @@
                 <img src="@/assets/images/zigzag_arrow.png">
                 <img class="px-4" src="@/assets/images/clientforce.png">
 
-            </div>
+            </div> 
             <div class="spot__bg">
+                <div class="spot_bg position-absolute text-right">
+                    <img src="@/assets/images/Spots.svg" width="50%">
+                </div>
                 <div class="col-8 mx-auto p-5 text__container">
                     Clientforce is customer acquisition and sales 
-                    automation platform that helps you <span class="quando">find your ideal customers with a few clicks.</span>
+                    automation platform that helps you <span class="ideal_customer">find your ideal customers with a few clicks.</span>
                 </div>
+                
 
                 <div class="mx-auto text-center w-full mb-5 pb-5">
                     <img src="@/assets/images/project_dashboard.png" width="100%" class="mx-auto" alt="Responsive image">
@@ -110,18 +114,19 @@
                 </div> 
                 <!-- visit website start here -->
                 <b-col cols-sm="12" cols="3" class=" visit-website-bg px-5 pt-3">
-                    <div class=" m-5">    
-                        <p class="white_colored"> Visit website
-                            Headquarters
-                            San Diego, US
+                    <div class="segment">
+                        <div class=" m-5">    
+                            <p class="white_colored"> Visit website
+                                Headquarters
+                                San Diego, US
                             </p>
-                            
+                                
                             <p class="grey_colored">Industry
-                                SaaS, sales Automation
+                                    SaaS, sales Automation
                             </p>
 
                             <p class="grey_colored">Company size
-                            51 — 200 employees
+                                51 — 200 employees
                             </p>
 
                             <p class="grey_colored">Funding
@@ -129,20 +134,22 @@
                             </p>
 
                             <p class="black_colored">
-                            Services we provided
-                            Visual identity
-                            UX research
-                            Website design
-                            Design system
-                            CMS integration    
+                                Services we provided
+                                Visual identity
+                                UX research
+                                Website design
+                                Design system
+                                CMS integration    
                             </p>  
                             <div class="">
-                                <img src="@/assets/images/leads _image.svg" style="height:150px">
-                                
+                                    <img src="@/assets/images/leads _image.svg" style="height:150px">
+                                    
                             </div>    
                             <p class="black_colored">Track major leads</p>   
+                     
                         </div>              
-                     </b-col>
+                    </div>
+                </b-col>
                     <!-- visit website ends here -->
                 
                
@@ -151,9 +158,7 @@
             <img class="w-100" src="@/assets/images/laptop.png" height="400px">
         </div>
         </div>
-        <!--div class="col-12  m-5 pb-5 ">
-            <img class="pt-5 mx-5 my-5 laptop_image" src="@/assets/images/laptop.png" height="600px">
-        </div-->
+       
        
         <!-- workpage section2 ends here -->
 
@@ -301,17 +306,26 @@ export default {
 <style lang="scss" scoped>
 .workpage__section {
     color: #ffff;
-    .text__container{
+    
+
+}
+.spot_bg{
+    mix-blend-mode: soft-light;
+    left:100px
+}
+.text__container{
     color:#ffff;
-    font-size:48px;
-    .quando{
+    font-size:38px;
+    opacity: 0.9;
+    
+
+}
+.ideal_customer{
         color:#fff;
         font-size:43px;
+        font-family: 'Quando', serif;
+
     }
-
-}
-
-}
 .visit-website-bg{
 
     background-image: url('../../../assets/images/visit_wesite_bg.png');
@@ -319,11 +333,17 @@ export default {
     background-size:100%; 
     position: absolute;
     top:-300px;
-
+    .segment{
+        background-image: url('../../../assets/images/Ellipse_bg_image.svg');
+        background-size: 100% 100%;
+        
+    }
 }
 .client{
     margin-left:330px;
-    color: rgba(255, 255, 255, 0.46); 
+    color: rgba(255, 255, 255, 0.46);
+    
+ 
 }
 .the_client{
     color:#ffff;
