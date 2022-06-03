@@ -2,16 +2,34 @@
 <div>
   <div class="h-100 insightpage__top p-0 m-0 position-relative">
       <!-- insight section_1 start here -->
-      <div class="col-8 px-5 ">
-          <div class="col-12 mx-auto justify-content-between">
+      <!--div class="col-10 px-5 ">
+          <div class="col-12 mx-auto text-center">
              <h1 class="mx-5 build_grow"><span class="display-4 build">Build <span class="dot display-2">.</span></span><span class="display-1 grow"> Grow <span class="dot display-3">.</span></span></h1>
           </div>
           <div class="p-0 m-0 col-12 pl-5 ">
-               <h1 class="pl-5 ml-4"><span class="quando">Serve <span class="dot display-3 ">.</span></span> <span class="position-absolute"><p class="paragraph p-3 m-3"> We shape the products and services that 
+               <h1 class="serve"><span class="quando">Serve <span class="dot display-3 ">.</span></span> 
+               <span class="position-absolute"><p class="paragraph p-3 m-3"> We shape the products and services that 
                    improve the lives of thousands every single day.</p></span>
                 </h1>
           </div>
-      </div>
+      </div-->
+        <div class="col-10 m-5 p-5">
+                <div class="col-12 mx-auto text-center">
+                    <h1 class="mx-5 px-5 display-1"><span class="display-4 build">Build <span class="dot display-2">.</span></span><span class="display-1 grow"> Grow <span class="dot display-3">.</span></span></h1>
+                </div>
+                <div class="p-0 m-0 col-12 pl-5 ">
+                    <h1 class="pl-5 ml-4 serve"><span class="quando">Serve <span class="dot display-3 ">.</span></span>
+                        <span class="position-absolute">
+                            <p class="paragraph p-4 m-4"> 
+                                We shape the products and services that 
+                                improve the lives of thousands every single day.
+                            </p>
+                        </span>
+                        
+                    </h1>
+                   
+                </div>
+            </div>
 
       <b-row class="p-5 m-5">
           <b-col col="6" class="">
@@ -52,7 +70,7 @@
             </b-row>
             <b-row class="m-0 p-0">
                 <b-col cols-sm="12" cols="12" class="">
-                    <img src="@/assets/images/layer_1.png" width="" class="mx-5 w-100">
+                    <img src="@/assets/images/layer_1.png" width="95%" class="mx-5">
                 </b-col>
             </b-row>
 
@@ -80,7 +98,7 @@
             </b-row>
             <b-row class="m-0 p-0">
                 <b-col cols-sm="12" cols="12" class="">
-                    <img src="@/assets/images/layer_1.png" width="" class="mx-5 w-100">
+                    <img src="@/assets/images/layer_1.png" width="" class="mx-5 w-100 layer_downward_image">
                 </b-col>
             </b-row>
             <b-row class="">
@@ -109,18 +127,32 @@
 
       <!-- insight section_3 start here -->
         <div class="insight__section__3 p-5">
-          <!--div class="">
-              <h1>Our Field Of Expertise </h1>
-              <h1>& capabilities
-                  <span class=""><p>50+ — projects we’ve helped launch through the years. Take a look at some of our selected case studies.</p></span>
-              </h1>
-              
-          </div-->
+          
+           <div class="col-10 m-5 p-5">
+                <div class="col-12 mx-auto text-center">
+                    <h1 class="mx-5 px-5 display-5 expertise">Our Field Of Expertise</h1>
+                </div>
+                <div class="p-0 m-0 col-12 pl-5 ">
+                    <h1 class="pl-5 ml-4"><span class="quando">& capabilities</span>
+                     <span class="position-absolute">
+                        <p class="paragraph_project p-2 m-2"> 50+ — projects we’ve helped launch through the years. 
+                      Take a look at some of our selected case studies.</p></span>
+                      
+                    </h1>
+                    <img class="right_arrow_image position-absolute" width="200px" src="@/assets/images/right_arrow.png">
+                    
+                </div>
+            </div>
 
-          <b-row class="mx-5 service_offer">
-              <b-col cols="6">
-                <h1>Digital experiences</h1>
-                <ul class="">
+            <b-row class="px-5 pt-5 mt-5 service_offer">
+              
+              <b-col cols="6" class="service_offer-left">
+                <span class="">
+                  <img class="brand-logo position-absolute" style="height: 40px;" src="@/assets/images/tronagency_logo.svg">
+                </span>
+                <h1 class="position-absolute service_offer-digital"> 
+                    Digital experiences</h1>
+                <ul class="mx-3 pt-4">
                     <li>Marketing website</li>
                     <li>Digital products</li>
                     <li>Mobile apps</li>
@@ -130,8 +162,8 @@
                 </ul>
               </b-col>
                <b-col cols="6">
-                <h1>Branding</h1>
-                <ul>
+                <h1 class="position-absolute service_offer-branding">Branding</h1>
+                <ul class="mx-3 pt-4">
                     <li>Finds and opportunities</li>
                     <li>Brand strategy</li>
                     <li>Identity development</li>
@@ -139,9 +171,9 @@
                     <li>Brand guidelines</li>
                 </ul>
               </b-col>
-               <b-col cols="5" class="mx-5 pt-5">
-                <h1>Engineering</h1>
-                <ul>
+               <b-col cols="5" class="mx-4 service_offer-top">
+                <h1 class="mx-5 pt-4 ">Engineering</h1>
+                <ul class="mx-5">
                     <li>Front-end development</li>
                     <li>Website development</li>
                     <li>Product development</li>
@@ -149,16 +181,19 @@
                     <li>Quality assurance</li>
                 </ul>
               </b-col>
-               <b-col cols="6" class="pt-5">
-                <h1>Discovery</h1>
-                <ul>
+               <b-col cols="6" class=" service_offer-right mb-5">
+                <h1  class="mx-5 pt-4">Discovery</h1>
+                <ul class="mx-5 ">
                     <li>Competitive benchmarking</li>
                      <li>Customer research and data analysis</li>
                      <li>Stakeholder and user interviews</li>
                      <li>User flows and customer journey</li>
                      <li>Information Architecture</li>
                 </ul>
+                 <!--img class="position-absolute" width="280px" src="@/assets/images/right_arrow.png"-->
+                    
               </b-col>
+              
            </b-row>
            <div class="p-5 m-3">
               <Insight2 /> 
@@ -166,13 +201,143 @@
         </div>
         <div class="insight_section_5_bg">
             <b-row class="result__board">
-                <b-col cols="6" class="pl-5 ">
-                    <h4 class="result px-5">The results we deliver.</h4>
+                <b-col cols="6" class="pl-5 quando ">
+                    <h4 class="result px-5 ml-5 position-absolute">The results we<span class="float-right"> deliver.</span></h4>
                 </b-col>
-                <b-col cols="6" class="my-5">
-                    <img src="@/assets/images/percentage_board.png" width="60%" class="mx-5 ml-5 percentage_board position-relative">
+                <b-col cols="6" class="my-5 mb-5">
+                    <img src="@/assets/images/percentage_board.png" width="85%" class="mx-5 percentage_board position-relative">
                 </b-col>
             </b-row>
+            <b-row class="">
+                <b-col cols="6">
+                   <img src="@/assets/images/l_arrow.png" class="L_arrow" height="200px">
+                </b-col> 
+                <b-col cols="5" class="p-4 m-4">
+                     <h4 class="quando mx-3 pl-5 ">How we deliver results?</h4>
+                </b-col>
+            </b-row>
+            <div class="mx-5 my-5 project">
+                <b-row class="mx-3 p-4">
+                    <b-col cols="4">
+                        <h4 class="heading">Global Perspective</h4>
+                        <p class="parag">We have members and collaborators working together from the United Kingdom, France, 
+                            Netherlands, Czechia, Bulgaria, Ukraine, Lithuania, Philippines, Spainm Portugal, 
+                            Russia, and Croatia, providing a valuable global perspective on our work.
+                        </p>
+                    </b-col>
+                    <b-col cols="4">
+                        <h4 class="heading">Dedicated Teams</h4>
+                        <p class="parag">We have focused teams dedicated to each project. Throughout the project, 
+                            you will have a point of contact to 
+                            guide you through the project lifecycle.
+                        </p>
+                    </b-col>
+                    <b-col cols="4">
+                        <h4 class="heading">Research-Based</h4>
+                        <p class="parag">We conduct quantitative and qualitative research to uncover key insights, 
+                            define user flows, optimize customer acquisition, 
+                            and educate our design process.
+                        </p>
+                    </b-col>
+                </b-row>
+                <b-row class="mx-3 p-4">
+                    <b-col cols="4">
+                        <h4 class="heading">Holistic approach</h4>
+                        <p class="parag">Our research and discovery process educates how we define 
+                            brand strategies, customer experiences, 
+                            and structure CMS environments.
+                        </p>
+                    </b-col>
+                    <b-col cols="4">
+                        <h4 class="heading">Holistic approach</h4>
+                        <p class="parag">You can expect to have a constant line of communication with your dedicated 
+                            team and weekly calls to review progress and updates.
+                        </p>
+                    </b-col>
+                    <b-col cols="4">
+                            
+                        <h4 class="heading">Collaborative effort</h4>
+                        <p class="parag">It’s a collaborative effort that requires focus from both sides. 
+                            To ensure the best results, we expect clients to dedicate a point of 
+                            contact to be actively involved with the project
+                        </p>
+                    </b-col>
+                    
+                </b-row>
+                <b-row class="mx-3 p-4">
+                    <b-col cols="4">
+                        <h4 class="heading">We’ll challenge everything</h4>
+                        <p class="parag">We’re research-based, which sometimes means challenging the underlying assumptions behind a product, website, or brand.</p>
+                    </b-col>
+                    <b-col cols="4" class="pt-5 mt-3">
+                        <router-link to="/about" class="homepage_btn">
+                         <img src="@/assets/images/view_all_btn.png" width="80%">    
+                        </router-link> 
+                    </b-col>
+                <b-col cols="4">
+                    <h4 class="heading">Well defined client fit</h4>
+                    <p class="parag">With a niche set of services, we have a great understanding of where, 
+                        how, and with whom we provide the best results.
+                    </p>
+                </b-col>
+
+                    
+                </b-row>
+            </div>
+  
+        <!--debrander agency game start here -->
+            <div class="testimonail__section">
+                <div class="" >
+                    <b-row cols="2" class="my-5 col-9 mx-auto testimonial__section">
+                        <b-col class="testimonial__section-left p-4" cols="6">
+                            <P class="text-justify">
+                                “TheBrander Agency was a game changer for Teachable — we used them to design our homepage (and have used that for many years) and they were the first people we turned to when we needed to build a marketplace. 
+                                I highly recommend them and our team loves working with them.”                      </P>
+                            <img  class="float-right mt-5 " src="@/assets/images/debrander-game-image.png" style="height:80px">
+                        </b-col>
+                        <b-col class="testimonial__section-right p-4 d-flex flex-column justify-content-between">
+                            <h4 class="m-0 p-0">100k+ — creators using <br>
+                            Teachable every day.
+                            </h4>
+                            <p class="">
+                                Anthony Raden<br>
+                                ~ Founder of Being A Company
+                            </p>
+                        </b-col>
+                    </b-row>
+                </div>
+                
+                <b-row class="col-12  mx-auto my-3 project pt-5 mt-5">
+                    <b-col cols="6">
+                        <div class="text-justify d-flex align-items-end">
+                             <div class="">
+                                <h1 class="pl-5 project_title quando">Have a project <br>in mind? Let’s<br/> get to work.</h1>
+                             </div>
+                           
+                        </div>
+                        <div class="mb-5 pt-4">
+                            <router-link  to="/" class="ml-5 project_btn">
+                                Start A Project
+                            </router-link>
+                        </div>
+                         <div class="text-right  py-4">
+                                <img class="zigzag_image position-relative" src="@/assets/images/zigzag_image.png" height="250px">
+                            </div>
+                        </b-col>
+                        <b-col cols="6" class="">
+                            <div class="">
+                                <img src="@/assets/images/cup_image.png" height="100px"><span class="px-4">Hello There! I’m Lamii Lambo</span>
+                                
+                            </div>
+
+                            <div class="pt-3">
+                                <img src="@/assets/images/textarea_image.png" class="w-100" height="130px">
+                            </div>
+                        </b-col>
+                </b-row>
+            </div>
+            <!-- debrander agency game ends here -->
+        
         </div>
 
      </div>
@@ -191,6 +356,12 @@ export default {
     .dot{
         color:#FDCA55;
     }
+    .serve{
+        position:relative;
+        left:50px;
+        top:-40px;
+        
+    }
     .build_grow{
         padding-left:100px
     }
@@ -199,7 +370,7 @@ export default {
         font-weight:500
     }
     .paragraph{
-        font-size:15px;
+        font-size:19px;
         
     }
     .build{
@@ -233,18 +404,59 @@ export default {
                 left:165px
             }
         }
-        .dashboard{
-           // 
+        .layer_downward_image{
+           transform: rotate(180deg);
+           -webkit-transform: rotate(180deg); 
+           -moz-transform: rotate(180deg);
         }
         
     }
     .insight__section__3{
         background: #DCDCDC;
+        .expertise{
+            font-weight:400;
+            
+        }
+        .paragraph_project{
+                font-size: 24px;
+            }
+            .right_arrow_image{
+                left:250px;
+                bottom:-40px
+            }
         .service_offer{
-            // background-image: url("../../../assets/images/long.png");
+            //background-image: url("../../../assets/images/long.svg");
+            
+            &-left{
+            font-size:18px;
+            border-left: 1px solid  #000000;;
+            border-bottom: 1px solid  #000000;;
+             
+            }
+             &-right{
+                border-left: 1px solid  #000000;;
+                 border-bottom: 1px solid  #000000;
+                 
+
+            }
+            
+             &-digital{
+                top:-30px;
+                left:40px
+            }
+            &-branding{
+                top:-30px;
+                left:40px
+            }
+
         }
         ul{
-            line-height: 70px;
+            line-height: 60px;
+        }
+
+        .brand-logo{
+            top:-24px;
+            left:-1px
         }
         
 
@@ -252,17 +464,64 @@ export default {
     .insight_section_5_bg{
         background-image: url('../../../assets/images/mom__baby.svg');
         background-repeat: no-repeat;
-        &_result__board{
-            
-        }
         .result{
             color:#fff;
-            font-family: 'quando' serif;
-            font-size:38px
+            font-size:85px;
+            bottom:130px
         }
         .percentage_board{
-            padding-top:500px
+            padding-top:300px;
+            padding-left:40px;
+            
         }
+        .L_arrow{
+                position: absolute;
+                right:50px;
+                top:-120px
+            }
+        .project{
+            .heading{
+                font-family: 'quando', serif;
+                font-size:36px;
+               
+            }
+             .parag{
+                    font-size:24px
+                }
+        } 
+
+        .testimonail__section {
+        .project {
+            &_title {
+                font-size: 60px;
+                font-weight: 400;
+            }
+            &_btn {
+                background: #FEAC5E;
+                justify-content: center;
+                color: #000;
+                border-radius: 2px;
+                padding: 10px 20px;
+                font-size:16px;
+                &:hover {
+                    text-decoration: none;
+                    background: #faae68;
+                }
+            }
+        }
+        .testimonial__section {
+            font-size:20px;
+            border-top: 1px solid  #000000;;
+            border-bottom: 1px solid  #000000;
+            &-right {
+                border-left :1px solid  #000000;
+            }
+        }
+        .zigzag_image{
+            top:-130px
+        }
+    }
+    
     }
     .ring_group{
         margin-top:-60px
