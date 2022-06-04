@@ -2,17 +2,7 @@
 <div>
   <div class="h-100 insightpage__top p-0 m-0 position-relative">
       <!-- insight section_1 start here -->
-      <!--div class="col-10 px-5 ">
-          <div class="col-12 mx-auto text-center">
-             <h1 class="mx-5 build_grow"><span class="display-4 build">Build <span class="dot display-2">.</span></span><span class="display-1 grow"> Grow <span class="dot display-3">.</span></span></h1>
-          </div>
-          <div class="p-0 m-0 col-12 pl-5 ">
-               <h1 class="serve"><span class="quando">Serve <span class="dot display-3 ">.</span></span> 
-               <span class="position-absolute"><p class="paragraph p-3 m-3"> We shape the products and services that 
-                   improve the lives of thousands every single day.</p></span>
-                </h1>
-          </div>
-      </div-->
+      
         <div class="col-10 m-5 p-5">
                 <div class="col-12 mx-auto text-center">
                     <h1 class="mx-5 px-5 display-1"><span class="display-4 build">Build <span class="dot display-2">.</span></span><span class="display-1 grow"> Grow <span class="dot display-3">.</span></span></h1>
@@ -31,24 +21,24 @@
                 </div>
             </div>
 
-      <b-row class="p-5 m-5">
-          <b-col col="6" class="">
-            <img src="@/assets/images/group_image_1.png" width="100%">
-          </b-col>
+        <b-row class="p-5 m-5">
+            <b-col col="6" class="">
+                <img src="@/assets/images/group_image_1.png" width="100%">
+            </b-col>
 
-          <b-col col="" class="pt-5 mt-5 m-5">
-               <img class="pt-5 mt-5" src="@/assets/images/group_image_2.png" width="100%">
-          </b-col>
-      </b-row>
-      <b-row class="p-5 m-5">
-          <b-col col="6" class="">
-            <img src="@/assets/images/group_image_3.png" width="100%">
-          </b-col>
+            <b-col col="" class="pt-5 mt-5 m-5">
+                <img class="pt-5 mt-5" src="@/assets/images/group_image_2.png" width="100%">
+            </b-col>
+        </b-row>
+        <b-row class="p-5 m-5">
+            <b-col col="6" class="">
+                <img src="@/assets/images/group_image_3.png" width="100%">
+            </b-col>
 
-          <b-col col="" class="pt-5 mt-5 m-5">
-               <img class="pt-5 mt-5" src="@/assets/images/group_image_4.png" width="100%">
-          </b-col>
-      </b-row>
+            <b-col col="" class="pt-5 mt-5 m-5">
+                <img class="pt-5 mt-5" src="@/assets/images/group_image_4.png" width="100%">
+            </b-col>
+        </b-row>
       <!-- insight section_1 end here -->
       <img src="@/assets/images/ring_group.svg" height="150px" class="float-right ring_group">
       <!-- insight section_1 atart here -->
@@ -66,17 +56,17 @@
                   <img src="@/assets/images/frame_image.png"  height="300px" class="w-100  position-absolute frame_image ">
                   
               </b-col>
-            
             </b-row>
-            <b-row class="m-0 p-0">
-                <b-col cols-sm="12" cols="12" class="">
-                    <img src="@/assets/images/layer_1.png" width="95%" class="mx-5">
+             <img src="@/assets/images/layer_1.png" width="90%" class="mx-5 postion-relative layer_upward_image ">
+            <b-row class="">
+                <b-col cols-sm="12" cols="12" class="mb-5">
+                   
                 </b-col>
             </b-row>
 
             <b-row class="">
               <b-col cols-sm="12" cols="6">
-                  <img src="@/assets/images/white_lady.png" class="mx-5">
+                  <img src="@/assets/images/white_lady.png" class="mx-5 w-100">
                   <b-row class="d-inline-flex two_image_beside position-absolute">
                       <b-col cols="6">
                           <img class="mt-5  left_image_pic" src="@/assets/images/overlap_right_image.svg">                           
@@ -89,7 +79,7 @@
               </b-col>
               <b-col cols-sm="12" cols="6" class="p-5 pt-5 mt-5">
                   <h1 class="quando pl-5 pt-5">Brand identities that last.</h1>
-                  <p class="mx-5 my-5 offer">
+                  <p class="mx-5 my-4 offer">
                       Via educated strategies and standout visual identity design, we can expand your 
                       digital reach and help you create lasting bonds with your customers.
                   </p>
@@ -98,7 +88,7 @@
             </b-row>
             <b-row class="m-0 p-0">
                 <b-col cols-sm="12" cols="12" class="">
-                    <img src="@/assets/images/layer_1.png" width="" class="mx-5 w-100 layer_downward_image">
+                    <img src="@/assets/images/layer_1.png" width="90%" class="mx-5 layer_downward_image">
                 </b-col>
             </b-row>
             <b-row class="">
@@ -182,8 +172,9 @@
                 </ul>
               </b-col>
                <b-col cols="6" class=" service_offer-right mb-5">
+                   
                 <h1  class="mx-5 pt-4">Discovery</h1>
-                <ul class="mx-5 ">
+                <ul class="mx-5">
                     <li>Competitive benchmarking</li>
                      <li>Customer research and data analysis</li>
                      <li>Stakeholder and user interviews</li>
@@ -191,6 +182,7 @@
                      <li>Information Architecture</li>
                 </ul>
                  <!--img class="position-absolute" width="280px" src="@/assets/images/right_arrow.png"-->
+                 <span class="arrow__right"></span>
                     
               </b-col>
               
@@ -404,6 +396,7 @@ export default {
                 left:165px
             }
         }
+       
         .layer_downward_image{
            transform: rotate(180deg);
            -webkit-transform: rotate(180deg); 
@@ -430,12 +423,15 @@ export default {
             &-left{
             font-size:18px;
             border-left: 1px solid  #000000;;
-            border-bottom: 1px solid  #000000;;
+            border-bottom: 1px solid  #000000;
+            
              
             }
              &-right{
                 border-left: 1px solid  #000000;;
                  border-bottom: 1px solid  #000000;
+                 margin-left:50px
+                 
                  
 
             }
@@ -448,7 +444,16 @@ export default {
                 top:-30px;
                 left:40px
             }
-
+            .arrow__right{
+                transform: rotate(-45deg);
+                border:solid #000;
+                display: inline-block;
+                padding: 10px;
+                border-width: 0 3px 3px 0;
+                position:absolute;
+                right:0px;
+                bottom:-12px
+            }
         }
         ul{
             line-height: 60px;
@@ -458,7 +463,7 @@ export default {
             top:-24px;
             left:-1px
         }
-        
+       
 
     }
     .insight_section_5_bg{
