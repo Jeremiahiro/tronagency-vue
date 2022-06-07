@@ -120,7 +120,7 @@
                 <div class="col-12 mx-4 my-4 pt-5">
                     <div class="col-12 mx-5">
                         <div class="col-10">
-                            <h1 class=" display-2 mx-2">Get a better understanding of our capabilities. </h1>
+                            <h1 class=" display-2 mx-2 quando">Get a better understanding of our capabilities. </h1>
                             <div class="mb-5">
                                 <router-link  to="/" class=" joinpage_section_3-btn mx-5 my-4 position-absolute">
                                     Our Services
