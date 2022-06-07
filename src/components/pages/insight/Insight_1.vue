@@ -8,9 +8,9 @@
                     <h1 class="mx-5 px-5 display-1"><span class="display-4 build">Build <span class="dot display-2">.</span></span><span class="display-1 grow"> Grow <span class="dot display-3">.</span></span></h1>
                 </div>
                 <div class="p-0 m-0 col-12 pl-5 ">
-                    <h1 class="pl-5 ml-4 serve"><span class="quando">Serve <span class="dot display-3 ">.</span></span>
+                    <h1 class="pl-5 ml-4 serve"><span class="serves display-2">Serve <span class="dot display-3 ">.</span></span>
                         <span class="position-absolute">
-                            <p class="paragraph p-4 m-4"> 
+                            <p class="paragraph pt-5 mx-3         "> 
                                 We shape the products and services that 
                                 improve the lives of thousands every single day.
                             </p>
@@ -362,7 +362,7 @@ export default {
         font-weight:500
     }
     .paragraph{
-        font-size:19px;
+        font-size:23px;
         
     }
     .build{
@@ -372,9 +372,10 @@ export default {
     .quando{
         font-family: 'Quando', serif;
         font-size: 50px;
-        
-
-        
+      
+    }
+    .serves{
+        font-family: 'Quando', serif;
     }
     .insight_section_2{
         background-color: #FEAC5E80;
@@ -430,7 +431,7 @@ export default {
              &-right{
                 border-left: 1px solid  #000000;;
                  border-bottom: 1px solid  #000000;
-                 margin-left:50px
+                 margin-left:54px
                  
                  
 

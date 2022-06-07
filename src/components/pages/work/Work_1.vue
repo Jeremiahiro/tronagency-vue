@@ -8,7 +8,7 @@
             </div> 
             <div class="spot__bg">
                 <div class="spot_bg position-absolute text-right">
-                    <img src="@/assets/images/Spots.svg" width="50%">
+                    <img src="@/assets/images/Spots.svg" width="60%">
                 </div>
                 <div class="col-8 mx-auto p-5 text__container">
                     Clientforce is customer acquisition and sales 
@@ -16,7 +16,7 @@
                 </div>
                 
 
-                <div class="mx-auto text-center w-full mb-5 pb-5">
+                <div class="mx-auto text-center w-full mt-5 pt-5 mb-5 pb-5">
                     <img src="@/assets/images/project_dashboard.png" width="100%" class="mx-auto" alt="Responsive image">
                 </div>
             </div>
@@ -66,7 +66,7 @@
 
                     </div>
                     <div class="white_image_logo p-5 m-5">
-                        <div class="text-center p-5 m-5">
+                        <div class="text-center p-5 m-5 ">
                             <img src="@/assets/images/clientforce_rec_image.png" style="height:100px">
                         </div>
                     </div>
@@ -90,7 +90,7 @@
                     
                 </div>
                 
-                <div class="p-3 m-3">
+                <div class="p-3 m-3 pt-5 mt-5">
                         <h1 class="quando">Visual identity</h1>
                         <p class="after_extensive">After extensive competitor research, we identified a color space and developed visual language specifically designed to help Sendlane stand out from the rest of the market, aid visual recall and develop brand awareness. The bright pink envelope mark, lively 
                             palette and quirky patterns also evoke Sendland’s core cultural and values; positivity, passion and diversity.</p>
@@ -113,8 +113,8 @@
                     
                 </div> 
                 <!-- visit website start here -->
-                <b-col cols-sm="12" cols="3" class=" visit-website-bg px-5 pt-3">
-                    <div class="segment">
+                <b-col cols-sm="12" cols="3" class=" visit-website-bg px-5 pt-3 mb-5">
+                    <div class="segment ">
                         <div class=" m-5">    
                             <p class="white_colored"> Visit website
                                 Headquarters
@@ -315,17 +315,20 @@ export default {
 }
 .text__container{
     color:#ffff;
-    font-size:38px;
-    opacity: 0.9;
+    font-size:39px;
+    
     
 
 }
 .ideal_customer{
-        color:#fff;
-        font-size:43px;
-        font-family: 'Quando', serif;
+    color:#fff;
+    font-size:42px;
+    font-family: 'Quando', serif;
 
-    }
+}
+.white_logo_image{
+    margin-top: 100px;
+}
 .visit-website-bg{
 
     background-image: url('../../../assets/images/visit_wesite_bg.png');
@@ -333,12 +336,13 @@ export default {
     background-size:100%; 
     position: absolute;
     top:-300px;
-    .segment{
+    
+}
+.segment{
         background-image: url('../../../assets/images/Ellipse_bg_image.svg');
         background-size: 100% 100%;
         
     }
-}
 .client{
     margin-left:330px;
     color: rgba(255, 255, 255, 0.46);
@@ -416,7 +420,7 @@ export default {
 }
 .after_extensive{
     color: #000000;
-    font-size:23px;
+    font-size:22.5px;
 }
 .new_visual_identity{
     color: #000000;
