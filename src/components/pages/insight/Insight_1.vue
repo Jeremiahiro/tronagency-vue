@@ -22,11 +22,11 @@
             </div>
 
         <b-row class="p-5 m-5">
-            <b-col col="6" class="">
+            <b-col col="6" cols-sm="12" class="">
                 <img src="@/assets/images/group_image_1.png" width="100%">
             </b-col>
 
-            <b-col col="" class="pt-5 mt-5 m-5">
+            <b-col col="" cols-sm="12" class="pt-5 mt-5 m-5">
                 <img class="pt-5 mt-5" src="@/assets/images/group_image_2.png" width="100%">
             </b-col>
         </b-row>
@@ -52,13 +52,13 @@
                   </p>
               </b-col>
               <b-col cols-sm="12" cols="6" class="new_person_frame_image">
-                  <img src="@/assets/images/new_person_image.png" height="900px" class="w-100">
-                  <img src="@/assets/images/frame_image.png"  height="300px" class="w-100  position-absolute frame_image ">
+                  <img src="@/assets/images/new_person_image.png" height="900px" class="w-100" alt="Responsive image" >
+                  <img src="@/assets/images/frame_image.png"  height="300px" class="w-100  position-absolute frame_image" alt="Responsive image" >
                   
               </b-col>
             </b-row>
-             <img src="@/assets/images/layer_1.png" width="90%" class="mx-5 postion-relative layer_upward_image ">
-            <b-row class="">
+             <img src="@/assets/images/layer_1.png" width="90%" class="mx-5 postion-relative layer_upward_image" alt="Responsive image" >
+            <b-row  class="">
                 <b-col cols-sm="12" cols="12" class="mb-5">
                    
                 </b-col>
@@ -66,7 +66,7 @@
 
             <b-row class="">
               <b-col cols-sm="12" cols="6">
-                  <img src="@/assets/images/white_lady.png" class="mx-5 w-100">
+                  <img src="@/assets/images/white_lady.png" class="mx-5 w-100" alt="Responsive image" >
                   <b-row class="d-inline-flex two_image_beside position-absolute">
                       <b-col cols="6">
                           <img class="mt-5  left_image_pic" src="@/assets/images/overlap_right_image.svg">                           
@@ -138,7 +138,7 @@
               
               <b-col cols="6" class="service_offer-left">
                 <span class="">
-                  <img class="brand-logo position-absolute" style="height: 40px;" src="@/assets/images/tronagency_logo.svg">
+                  <img class="brand-logo position-absolute" style="height: 40px;" src="@/assets/images/tronagency_logo.svg" alt="Responsive image" >
                 </span>
                 <h1 class="position-absolute service_offer-digital"> 
                     Digital experiences</h1>
@@ -344,7 +344,7 @@ export default {
 </script>
 <style lang="scss" scoped>
 .insightpage__top{
-    background: #DCDCDC;
+   
     .dot{
         color:#FDCA55;
     }

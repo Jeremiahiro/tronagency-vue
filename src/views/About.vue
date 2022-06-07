@@ -33,7 +33,7 @@ export default {
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500;700&family=Quando&display=swap');
 
 .about__container {
-    
+    background-color: #DCDCDC;
     display: flex;
     flex-direction: column;
     min-height: 100vh;

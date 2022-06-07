@@ -2,15 +2,15 @@
     <div class="h-100 joinpage__top p-0 m-0 mb-5 position-relative">
         <!-- join us page start here -->
         <div class="col-12 joinpage_section_1">
-            <div class="col-10 mx-auto">
+            <div class="col-10 mx-auto" cols-sm="12">
                 <div class=" position-absolute   joinpage_section_1-spot-bg">
                     <img src="@/assets/images/Spots.svg" width="100%">
                 </div>
-                 <div class="d-flex joinpage_section_1-info mx-auto">
+                 <div class="d-flex joinpage_section_1-info mx-auto" cols-sm="12">
                     <p class="joinpage_section_1-para mt-5 mx-5 pl-5 justify-between-content ">Digital agency helping SaaS brands <br><span class="joinpage_section_1-para-right">build amazing websites</span></p>     
                     <h1><span class="joinpage_section_1-quando ">Let’s start </span></h1>    
                 </div>
-                 <div class="mx-2">
+                 <div class="mx-2" col-sm="12">
                      <h1 class="joinpage_section_1-project postion-absolute mx-5 pl-5 display-1">a project together<span class="joinpage_section_1-project-dot">.</span></h1>
                      
                  </div>  
