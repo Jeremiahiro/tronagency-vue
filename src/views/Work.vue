@@ -1,7 +1,7 @@
 <template>
     <b-container fluid class="work__container p-0 m-0">
         <div>
-            <div>
+            <div class="darkModeClass">
                 <Navbar />
             </div>
             <div class="h-100 flex-1 p-5">
@@ -21,12 +21,14 @@ import Workpage from '../components/pages/Workpage.vue';
 export default {
     name: "Work",
     components: { Navbar, Footer, Workpage },
+    
 
     data() {
       return {
 
       };
     },
+    
 }
 </script>
 <style lang="scss">
@@ -39,12 +41,14 @@ export default {
     min-height: 100vh;
     overflow-x: hidden;
     font-family: 'Poppins', sans-serif;
-    .navbar__container{
-        color:#fff
-    }
+    
     
     .footer__container {
         margin-top: auto;
     }
-}
+    .darkModeClass{
+        background: #11271F;
+        opacity: 0.5;
+    }
+    }
 </style>

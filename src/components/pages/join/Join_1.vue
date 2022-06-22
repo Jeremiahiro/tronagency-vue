@@ -26,23 +26,23 @@
                     </div>
                 </div>
             <div class="col-12 form-container ">
-                <form class="form-container-signup-form p-5 m-5">
+                <form class="form-container-signup-form p-5 m-5" @submit="checkform"  action="/" method="post">
                     <div class="input-container mb-5">
-                        <label class="">My name is</label><span class="mx-3"><input id="name" type="" placeholder="Okoyomon Paul"  required/></span>
-                        <label class="">and I work with</label> <span class="mx-3"> <input class="mx-4" id="company_name" type="text" placeholder="Company name" required /></span>
+                        <label for="name">My name is</label><span class="mx-3"><input id="name" type="text" name="name" v-model="name" placeholder="Okoyomon Paul"  required/></span>
+                        <label for="company">and I work with</label> <span class="mx-3"> <input class="mx-4" id="company_name" type="text" name="company" v-model="company" placeholder="Company name" required /></span>
                     </div>
                     <div class="input-container-goal-detail mb-5  px-3">
-                        <label class="">I’m looking for a partner to help me with</label> <span class="mx-5"> <input class="" id="goal" type="text" placeholder="My Goal" required /></span>
+                        <label for="goal">I’m looking for a partner to help me with</label> <span class="mx-5"> <input class="" id="goal" type="text" name="goal" v-model="goal" placeholder="My Goal" required /></span>
 
                     </div>
 
                     <div class="input-container-date  mb-5 ">
-                        <label  class="">with an idea of having that completed on</label> <span class="mx-5"> <input class="" id="completed date" type="text" placeholder="Date" /></span>
+                        <label  for="date">with an idea of having that completed on</label> <span class="mx-5"> <input class="" id="completed date" type="text" name="date" v-model="date" placeholder="Date" /></span>
                     </div>
                     <div class="input-container-budget mb-5">
-                        <label class="">am hoping to stay around a budget range of</label>
+                        <label for="budget">am hoping to stay around a budget range of</label>
                         <span class="mx-4">
-                            <select id="price" class="mx-3" name="price">
+                            <select id="price" class="mx-3"  name="budgect" v-model="budget">
                                 <option>$250.00 - $500.000</option>
                                 <option>$550.00 - $750.000</option>
                                 <option>$800.00 - $1000.000</option>
@@ -52,7 +52,7 @@
                         </span>    
                     </div>
                     <div class="input-container-email mb-5">
-                        <label class="">You can reach me at</label> <span class="mx-5"><input id="email" type="email" placeholder="Email Address"></span>
+                        <label class="email">You can reach me at</label> <span class="mx-5"><input id="email" type="email" name="email" v-model="email" placeholder="Email Address"></span>
                     </div>
                     <div class="mx-5 px-5 form-container-conversation pt-5">
                         <h3 class=" form-container-conversation-message text-center">
@@ -62,15 +62,15 @@
                     </div>
                     
                     <div class="joinpage_section_1-project_1">
-                        <textarea class="joinpage_section_1-textarea mx-auto" placeholder="Project Details"></textarea>
+                        <textarea class="joinpage_section_1-textarea mx-auto" name="description" v-model="description" placeholder="Project Details"></textarea>
                     </div>
                 
                     
                     <div class="p-5 m-5 mb-5">
                         <div class="mx-5 mb-5">
-                            <router-link  to="/" class=" joinpage_section_1-btn position-absolute">
-                                Our approach
-                            </router-link>
+                            <button  type="submit" class=" joinpage_section_1-btn position-absolute">
+                                Send inquiry
+                            </button>
                         </div>
                         <div class="mx-5 pt-3">
                             <p class="">By clicking on “Send Inquiry” button, you agree to our Privacy Policy, and allow The Brander Agency to use this information for marketing purposes.</p>
@@ -137,6 +137,20 @@
 
 <script>
 export default {
+    data() {
+        return {
+            name: null,
+            company: null,
+            goal: null,
+            date: null,
+            budget: null,
+            email: null
+        }
+    },
+    methods:{
+        
+    }
+
     
 }
 </script>
@@ -168,7 +182,6 @@ export default {
        color: #11271F;
        font-size:100px;
        font-weight:400;
-
        &-dot{
            color:#FDCA55;
        }
@@ -177,7 +190,8 @@ export default {
         background-color: #000;
         height: 300px;
         width:100%;
-        color:#fff
+        color:#fff;
+        padding: 20px 30px;
     }
     
     &-btn{
@@ -185,6 +199,7 @@ export default {
         justify-content: center;
         color: #000;
         border-radius: 2px;
+        border: none;
         padding: 10px 20px;
         font-size:18px;
         bottom:250px;
@@ -198,11 +213,6 @@ export default {
     }
     }
     .form-container{
-        &-signup-form{
-           
-
-        }
-        
         &-conversation-message{
             font-size:37px;
             font-weight:500;
@@ -219,12 +229,15 @@ export default {
         input[type=text]{
         background: transparent;
         border:none;
+        outline: none;
         border-bottom: 2px solid #193F31;
+        
         
         }
         input[type=email]{
             background: transparent;
             border:none;
+            outline: none;
             border-bottom: 2px solid #193F31;
         }
         select{
@@ -232,13 +245,10 @@ export default {
             border:none;
             border-bottom: 2px solid #193F31;
             color: #11271F;
+            outline: none;
         } 
         label{
             font-size: 20px;
-        } 
-        &-coversation{
-            
-            
         } 
     } 
      .input-container{
@@ -256,7 +266,6 @@ export default {
                }
         }   
     
-
 .joinpage_section_2{
     background: #FFFFFFA1;
     &-zigzag{
@@ -271,7 +280,6 @@ export default {
         
         font-size:55px
     }
-
 .joinpage_section_3{
     &-btn{
         background: #FEAC5E;
@@ -288,5 +296,4 @@ export default {
         }
     }
 }
-
 </style>

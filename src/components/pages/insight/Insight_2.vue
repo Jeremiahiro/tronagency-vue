@@ -3,7 +3,7 @@
         <div class="" >
             <b-row cols="2" class="my-5 col-9 mx-auto testimonial__section">
                 <b-col class="testimonial__section-left p-4" cols="6">
-                    <P class="text-justify">
+                    <P class="text-justify agency">
                         “TheBrander Agency was a game changer for Teachable — we used them to design our homepage (and have used that for many years) and they were the first people we turned to when we needed to build a marketplace. 
                         I highly recommend them and our team loves working with them.”                      </P>
                     <img  class="float-right mt-5 " src="@/assets/images/debrander-game-image.png" style="height:80px">
@@ -50,7 +50,7 @@ export default {
             }
         }
         .testimonial__section {
-            font-size:20px;
+            
             
             border-bottom: 1px solid  #000000;
             &-right {

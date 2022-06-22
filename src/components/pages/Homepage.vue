@@ -40,7 +40,7 @@
                 <b-col cols-sm="12" cols="6" class="position-relative">
                     <img src="@/assets/images/sylvia.png" height="600px">
                     <router-link to="/work" class="recent__work">
-                        <span class=""><img width="200" src="@/assets/images/Recent-work.svg"></span>
+                        <span class=""><img width ="200" src="@/assets/images/Recent-work.svg"></span>
                     </router-link>
                 </b-col>
                 <b-col cols-sm="12" cols="6" class="d-inline-flex mt-5">

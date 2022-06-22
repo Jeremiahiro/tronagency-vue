@@ -163,7 +163,7 @@
         <!-- workpage section2 ends here -->
 
         <!-- workpage section3 start here -->
-        <div class="workpage_section_3 p-5">
+        <div class="workpage_section_3 p-5 ">
             <div class="p-2 m-2 pt-5 mt-5">
                 <h1 class="quando pt-5">Website and UX development.</h1>
                 <p class="website_ux mt-5 pt-3">Our data-backed research combined with a strong cross-team 
@@ -420,7 +420,7 @@ export default {
 }
 .after_extensive{
     color: #000000;
-    font-size:22.5px;
+    font-size:21.5px;
 }
 .new_visual_identity{
     color: #000000;
@@ -440,15 +440,15 @@ export default {
     }
     .website_ux{
         color: #FFFFFF75;
-        font-size:25px;
+        font-size:21.5px;
     }
     .created_over{
         color: #FFFFFF75;
-        font-size:25px;
+        font-size:21.5px;
     }
     .using_webflow{
         color:#FFFFFF75;
-        font-size:25px;
+        font-size:21.5px;
     }
     .overlay-image-frame{
        margin-top:200px;

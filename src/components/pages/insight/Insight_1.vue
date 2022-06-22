@@ -100,16 +100,17 @@
                     </p>
                 </b-col>
                  <b-col cols="6" class="pt-5 mt-5">
-                    <img src="@/assets/images/Dashboard.png" class="dashboard">
-                </b-col>
+                                 </b-col>
 
             </b-row>
-            <b-row class="">
+            <b-row class="mt-5">
                 <b-col cols="3" class="pt-5 mt-5">
                     <img src="@/assets/images/beads.png" width="130px" class="mx-5">
                 </b-col>
                 <b-col cols="9">
-                    <img src="@/assets/images/black__white_men.png" height="400px" class="w-100">
+                     <img src="@/assets/images/Dashboard.png" class="dashboard position-absolute w-50" height="350px"  >
+  
+                    <img src="@/assets/images/black__white_men.png" class="w-100 black__white_men" height="400px">
                 </b-col>
             </b-row>
       </div>
@@ -377,6 +378,10 @@ export default {
     .serves{
         font-family: 'Quando', serif;
     }
+    .dashboard{
+        bottom:370px;
+        left:350px
+    }
     .insight_section_2{
         background-color: #FEAC5E80;
         .offer{
@@ -415,7 +420,7 @@ export default {
                 font-size: 24px;
             }
             .right_arrow_image{
-                left:250px;
+                left:200px;
                 bottom:-40px
             }
         .service_offer{

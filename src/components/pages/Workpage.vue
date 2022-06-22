@@ -1,6 +1,8 @@
 <template>
     <div class="h-100 workpage__component">
-        <Work1 />
+        
+            <Work1 />
+        
     </div>
 </template>
 
